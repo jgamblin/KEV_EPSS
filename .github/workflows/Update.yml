@@ -31,7 +31,6 @@ jobs:
          jupyter nbconvert --ExecutePreprocessor.timeout=-1 --to notebook --inplace --execute KEV-EPSS.ipynb
          rm *.json
          rm *.zip
-         rm *.csv.gz   
          rm epss_scores-current.csv
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
