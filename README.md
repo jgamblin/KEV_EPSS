@@ -1,4 +1,4 @@
-# CISA Known Exploited Vulnerabilities Enrichtment
+# CISA Known Exploited Vulnerabilities Enrichment
 
 This project comprises a simple jupyter notebook that downloads the [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) and enrichs it with the current [EPSS](https://www.first.org/epss/) and the [CVSS V3 Base Score](https://www.first.org/cvss/).
 
