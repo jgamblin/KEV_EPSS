@@ -726,7 +726,7 @@ CVE-2013-7331,,0.4751,An information disclosure vulnerability exists in Internet
 CVE-2013-3993,,0.01132,"Certain APIs within BigInsights can take invalid input that might allow attackers unauthorized access to read, write, modify, or delete data."
 CVE-2013-3896,,0.29551,"Microsoft Silverlight does not properly validate pointers during access to Silverlight elements, which allows remote attackers to obtain sensitive information via a crafted Silverlight application."
 CVE-2013-2423,,0.8173,Unspecified vulnerability in hotspot for Java Runtime Environment (JRE) allows remote attackers to affect integrity.
-CVE-2013-0431,,0.80209,Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle allows remote attackers to bypass the Java security sandbox.
+CVE-2013-0431,,0.79014,Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle allows remote attackers to bypass the Java security sandbox.
 CVE-2013-0422,,0.86728,A vulnerability in the way Java restricts the permissions of Java applets could allow an attacker to execute commands on a vulnerable system.
 CVE-2013-0074,,0.58315,"Microsoft Silverlight does not properly validate pointers during HTML object rendering, which allows remote attackers to execute code via a crafted Silverlight application."
 CVE-2012-1710,,0.01136,"Unspecified vulnerability in the Oracle WebCenter Forms Recognition component in Oracle Fusion Middleware allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Designer."
@@ -833,3 +833,4 @@ CVE-2022-3236,9.8,0.01156,A code injection vulnerability in the User Portal and 
 CVE-2022-41082,8.8,0.25101,"Microsoft Exchange Server contains an unspecified vulnerability which allows for authenticated remote code execution. Dubbed ""ProxyNotShell,"" this vulnerability is chainable with CVE-2022-41040 which allows for the remote code execution."
 CVE-2022-41040,8.8,0.02342,"Microsoft Exchange Server allows for server-side request forgery. Dubbed ""ProxyNotShell,"" this vulnerability is chainable with CVE-2022-41082 which allows for remote code execution."
 CVE-2022-36804,8.8,0.78622,"Multiple API endpoints of Atlassian Bitbucket Server and Data Center contain a command injection vulnerability where an attacker with access to a public Bitbucket repository, or with read permissions to a private one, can execute code by sending a malicious HTTP request."
+CVE-2022-41033,7.8,0.00885,Microsoft Windows COM+ Event System Service contains an unspecified vulnerability that allows for privilege escalation.
