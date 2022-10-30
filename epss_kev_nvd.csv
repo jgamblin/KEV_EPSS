@@ -463,7 +463,7 @@ CVE-2013-0632,,0.94152,An authentication bypass vulnerability exists in Adobe Co
 CVE-2012-4681,,0.92021,The Java Runtime Environment (JRE) component in Oracle Java SE allow for remote code execution.
 CVE-2012-1856,,0.48722,The TabStrip ActiveX control in the Common Controls in MSCOMCTL.OCX in Microsoft Office allows remote attackers to execute arbitrary code via a crafted (1) document or (2) web page that triggers system-state corruption.
 CVE-2012-1723,,0.90084,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot."
-CVE-2012-1535,,0.89439,Unspecified vulnerability in Adobe Flash Player allows remote attackers to execute arbitrary code or cause a denial of service via crafted SWF content.
+CVE-2012-1535,,0.89105,Unspecified vulnerability in Adobe Flash Player allows remote attackers to execute arbitrary code or cause a denial of service via crafted SWF content.
 CVE-2012-0507,,0.76282,An incorrect type vulnerability exists in the Concurrency component of Oracle's Java Runtime Environment allows an attacker to remotely execute arbitrary code.
 CVE-2011-3544,,0.81896,An access control vulnerability exists in the Applet Rhino Script Engine component of Oracle's Java Runtime Environment allows an attacker to remotely execute arbitrary code.
 CVE-2011-1889,,0.62357,A remote code execution vulnerability exists in the Forefront Threat Management Gateway (TMG) Firewall Client Winsock provider that could allow code execution in the security context of the client application.
