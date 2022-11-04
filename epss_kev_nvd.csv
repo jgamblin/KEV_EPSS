@@ -844,3 +844,4 @@ CVE-2018-19322,7.8,0.0095,"The GPCIDrv and GDrv low-level drivers in GIGABYTE Ap
 CVE-2018-19321,7.8,0.01669,"The GPCIDrv and GDrv low-level drivers in GIGABYTE App Center, AORUS Graphics Engine, XTREME Gaming Engine, and OC GURU II expose functionality to read and write arbitrary physical memory. This could be leveraged by a local attacker to elevate privileges."
 CVE-2018-19320,7.8,0.01669,"The GDrv low-level driver in GIGABYTE App Center, AORUS Graphics Engine, XTREME Gaming Engine, and OC GURU II exposes ring0 memcpy-like functionality that could allow a local attacker to take complete control of the affected system."
 CVE-2022-42827,,0.02485,Apple iOS and iPadOS kernel contain an out-of-bounds write vulnerability which can allow an application to perform code execution with kernel privileges.
+CVE-2022-3723,8.8,0.01055,Google Chromium V8 contains a type confusion vulnerability. Specific impacts from exploitation are not available at this time.
