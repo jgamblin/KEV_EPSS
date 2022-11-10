@@ -757,7 +757,7 @@ CVE-2012-1889,,0.91428,Microsoft XML Core Services contains a memory corruption 
 CVE-2012-0767,,0.01408,Adobe Flash Player contains a XSS vulnerability which allows remote attackers to inject web script or HTML.
 CVE-2012-0754,,0.92497,Adobe Flash Player contains a memory corruption vulnerability which allows remote attackers to execute code or cause denial-of-service.
 CVE-2012-0151,,0.62357,"The Authenticode Signature Verification function in Microsoft Windows (WinVerifyTrust) does not properly validate the digest of a signed portable executable (PE) file, which allows user-assisted remote attackers to execute code."
-CVE-2011-2462,,0.89654,The Universal 3D (U3D) component in Adobe Acrobat and Reader contains a memory corruption vulnerability which could allow remote attackers to execute code or cause denial-of-service.
+CVE-2011-2462,,0.89103,The Universal 3D (U3D) component in Adobe Acrobat and Reader contains a memory corruption vulnerability which could allow remote attackers to execute code or cause denial-of-service.
 CVE-2011-0609,,0.84719,Adobe Flash Player contains an unspecified vulnerability which allows remote attackers to execute code or cause denial-of-service.
 CVE-2010-2883,,0.77982,Adobe Acrobat and Reader contain a stack-based buffer overflow vulnerability which allows remote attackers to execute code or cause denial-of-service.
 CVE-2010-2572,,0.49719,Microsoft PowerPoint contains a buffer overflow vulnerability that alllows for remote code execution.
