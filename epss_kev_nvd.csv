@@ -539,7 +539,7 @@ CVE-2017-3881,9.8,0.95332,"A vulnerability in the Cisco Cluster Management Proto
 CVE-2017-12617,8.1,0.94973,"When running Apache Tomcat, it is possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server."
 CVE-2017-12615,8.1,0.92481,"When running Apache Tomcat on Windows with HTTP PUTs enabled, it is possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server."
 CVE-2017-0146,8.1,0.8486,The SMBv1 server in Microsoft Windows allows remote attackers to perform remote code execution.
-CVE-2016-7892,9.8,0.03731,Adobe Flash Player has an exploitable use-after-free vulnerability in the TextField class.
+CVE-2016-7892,8.8,0.03731,Adobe Flash Player has an exploitable use-after-free vulnerability in the TextField class.
 CVE-2016-4171,9.8,0.10052,Unspecified vulnerability in Adobe Flash Player allows for remote code execution.
 CVE-2016-1555,9.8,0.94828,Multiple NETGEAR Wireless Access Point devices allows unauthenticated web pages to pass form input directly to the command-line interface. Exploitation allows for arbitrary code execution.
 CVE-2016-11021,7.2,0.03059,setSystemCommand on D-Link DCS-930L devices allows a remote attacker to execute code via an OS command.
