@@ -753,7 +753,7 @@ CVE-2016-1646,8.8,0.01955,Google Chromium V8 contains an out-of-bounds read vuln
 CVE-2013-1331,,0.58315,Microsoft Office contains a buffer overflow vulnerability which allows remote attackers to execute code via crafted PNG data in an Office document.
 CVE-2012-5054,,0.06309,Adobe Flash Player contains an integer overflow vulnerability which allows remote attackers to execute code via malformed arguments.
 CVE-2012-4969,,0.91094,Microsoft Internet Explorer contains a use-after-free vulnerability which allows remote attackers to execute code via a crafted web site.
-CVE-2012-1889,,0.91428,Microsoft XML Core Services contains a memory corruption vulnerability which could allow for remote code execution.
+CVE-2012-1889,,0.91411,Microsoft XML Core Services contains a memory corruption vulnerability which could allow for remote code execution.
 CVE-2012-0767,,0.01408,Adobe Flash Player contains a XSS vulnerability which allows remote attackers to inject web script or HTML.
 CVE-2012-0754,,0.92497,Adobe Flash Player contains a memory corruption vulnerability which allows remote attackers to execute code or cause denial-of-service.
 CVE-2012-0151,,0.62357,"The Authenticode Signature Verification function in Microsoft Windows (WinVerifyTrust) does not properly validate the digest of a signed portable executable (PE) file, which allows user-assisted remote attackers to execute code."
