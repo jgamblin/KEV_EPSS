@@ -748,7 +748,7 @@ CVE-2018-17463,8.8,0.93304,Google Chromium V8 Engine contains an unspecified vul
 CVE-2017-6862,9.8,0.05785,Multiple NETGEAR devices contain a buffer overflow vulnerability that allows for authentication bypass and remote code execution.
 CVE-2017-5070,8.8,0.05941,Google Chromium V8 Engine contains a type confusion vulnerability which allows a remote attacker to execute code inside a sandbox.
 CVE-2017-5030,8.8,0.05941,Google Chromium V8 Engine contains a memory corruption vulnerability which allows a remote attacker to execute code.
-CVE-2016-5198,8.8,0.04967,Google Chromium V8 Engine contains an out-of-bounds memory vulnerability.
+CVE-2016-5198,8.8,0.05593,Google Chromium V8 Engine contains an out-of-bounds memory vulnerability.
 CVE-2016-1646,8.8,0.01955,Google Chromium V8 contains an out-of-bounds read vulnerability.
 CVE-2013-1331,,0.58315,Microsoft Office contains a buffer overflow vulnerability which allows remote attackers to execute code via crafted PNG data in an Office document.
 CVE-2012-5054,,0.06309,Adobe Flash Player contains an integer overflow vulnerability which allows remote attackers to execute code via malformed arguments.
@@ -854,4 +854,4 @@ CVE-2021-25369,5.5,0.00885,Samsung mobile devices using Mali GPU contains an imp
 CVE-2021-25370,4.4,0.00885,"Samsung mobile devices using Mali GPU contain an incorrect implementation handling file descriptor in dpu driver. This incorrect implementation results in memory corruption, leading to kernel panic. This vulnerability was chained with CVE-2021-25337 and CVE-2021-25369."
 CVE-2022-41049,5.4,0.02251,Microsoft Windows Mark of the Web (MOTW) contains a security feature bypass vulnerability resulting in a limited loss of integrity and availability of security features.
 CVE-2021-35587,9.8,0.00885,Oracle Fusion Middleware Access Manager allows an unauthenticated attacker with network access via HTTP to takeover the Access Manager product.
-CVE-2022-4135,9.6,0.01055,Google Chrome GPU contains a heap buffer overflow vulnerability that allows a remote attacker who has compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.
+CVE-2022-4135,9.6,0.07865,Google Chrome GPU contains a heap buffer overflow vulnerability that allows a remote attacker who has compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.
