@@ -164,7 +164,7 @@ CVE-2021-26411,7.5,0.02649,Internet Explorer Memory Corruption Vulnerability
 CVE-2019-0859,7.8,0.01641,"A privilege escalation vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0685, CVE-2019-0803."
 CVE-2021-40444,7.8,0.90841,Microsoft MSHTML Remote Code Execution Vulnerability
 CVE-2017-8759,7.8,0.91829,"Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow an attacker to execute code remotely via a malicious document or application."
-CVE-2018-8653,7.5,0.10702,"A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka ""Scripting Engine Memory Corruption Vulnerability."" This CVE ID is unique from CVE-2018-8643."
+CVE-2018-8653,7.5,0.12683,"A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka ""Scripting Engine Memory Corruption Vulnerability."" This CVE ID is unique from CVE-2018-8643."
 CVE-2019-0797,7.8,0.01376,"A privilege escalation vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0808."
 CVE-2021-36942,5.3,0.26327,"Windows Local Security Authority (LSA) Spoofing Vulnerability ""PetitPotam"""
 CVE-2019-1215,7.8,0.01865,"A privilege escalation vulnerability exists in the way that ws2ifsl.sys (Winsock) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1253, CVE-2019-1278, CVE-2019-1303."
@@ -504,7 +504,7 @@ CVE-2015-2546,,0.11712,The kernel-mode driver in Microsoft Windows OS and Server
 CVE-2022-26318,9.8,0.15362,"On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute arbitrary code."
 CVE-2022-26143,9.8,0.01319,"A vulnerability has been identified in MiCollab and MiVoice Business Express that may allow a malicious actor to gain unauthorized access to sensitive information and services, cause performance degradations or a denial of service condition on the affected system."
 CVE-2022-21999,7.8,0.07627,Microsoft Windows Print Spooler contains an unspecified vulnerability which can allow for privilege escalation.
-CVE-2021-42237,9.8,0.93637,Sitcore XP contains an insecure deserialization vulnerability which can allow for remote code execution.
+CVE-2021-42237,9.8,0.95381,Sitcore XP contains an insecure deserialization vulnerability which can allow for remote code execution.
 CVE-2021-22941,9.8,0.00885,Improper Access Control in Citrix ShareFile storage zones controller may allow an unauthenticated attacker to remotely compromise the storage zones controller.
 CVE-2020-9377,8.8,0.44855,D-Link DIR-610 devices allow remote code execution via the cmd parameter to command.php.
 CVE-2020-9054,9.8,0.8946,"Multiple Zyxel network-attached storage (NAS) devices contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code."
@@ -525,8 +525,8 @@ CVE-2019-11043,9.8,0.96,"In some versions of PHP in certain configurations of FP
 CVE-2019-10068,9.8,0.43385,Kentico contains a failure to validate security headers. This deserialization can led to unauthenticated remote code execution.
 CVE-2019-1003030,9.9,0.0968,"Jenkins Matrix Project plugin contains a vulnerability which can allow users to escape the sandbox, opening opportunity to perform remote code execution."
 CVE-2019-0903,8.8,0.02866,A remote code execution vulnerability exists in the way that the Windows Graphics Device Interface (GDI) handles objects in the memory. An attacker who successfully exploited this vulnerability could take control of the affected system.
-CVE-2018-8414,8.8,0.58503,A remote code execution vulnerability exists when the Windows Shell does not properly validate file paths.
-CVE-2018-8373,7.5,0.58503,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer.
+CVE-2018-8414,8.8,0.56075,A remote code execution vulnerability exists when the Windows Shell does not properly validate file paths.
+CVE-2018-8373,7.5,0.56075,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer.
 CVE-2018-6961,8.1,0.55189,VMware SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component. Successful exploitation of this issue could result in remote code execution.
 CVE-2018-14839,9.8,0.01156,LG N1A1 NAS 3718.510 is affected by a remote code execution vulnerability.
 CVE-2018-1273,9.8,0.86372,Spring Data Commons contains a property binder vulnerability which can allow an attacker to perform remote code execution.
@@ -855,4 +855,4 @@ CVE-2021-25370,4.4,0.00885,"Samsung mobile devices using Mali GPU contain an inc
 CVE-2022-41049,5.4,0.09127,Microsoft Windows Mark of the Web (MOTW) contains a security feature bypass vulnerability resulting in a limited loss of integrity and availability of security features.
 CVE-2021-35587,9.8,0.00885,Oracle Fusion Middleware Access Manager allows an unauthenticated attacker with network access via HTTP to takeover the Access Manager product.
 CVE-2022-4135,9.6,0.07865,"Google Chromium GPU contains a heap buffer overflow vulnerability that allows a remote attacker who has compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
-CVE-2022-4262,,0.01055,Google Chromium V8 contains a type confusion vulnerability. Specific impacts from exploitation are not available at this time.
+CVE-2022-4262,8.8,0.01055,Google Chromium V8 contains a type confusion vulnerability. Specific impacts from exploitation are not available at this time.
