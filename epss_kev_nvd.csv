@@ -138,10 +138,10 @@ CVE-2021-33771,7.8,0.0115,"Windows Kernel Privilege Escalation Vulnerability. Th
 CVE-2021-31956,7.8,0.14694,Windows NTFS Privilege Escalation Vulnerability
 CVE-2021-31201,7.8,0.0115,Microsoft Enhanced Cryptographic Provider Privilege Escalation Vulnerability. This CVE ID is unique from CVE-2021-31199.
 CVE-2021-31979,7.8,0.0115,"Windows Kernel Privilege Escalation Vulnerability. This CVE ID is unique from CVE-2021-33771, CVE-2021-34514."
-CVE-2020-0938,7.8,0.04844,A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font - Adobe Type 1 PostScript format. This CVE ID is unique from CVE-2020-1020.
+CVE-2020-0938,7.8,0.05242,A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font - Adobe Type 1 PostScript format. This CVE ID is unique from CVE-2020-1020.
 CVE-2020-17144,8.4,0.09891,"Microsoft Exchange Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2020-17117, CVE-2020-17132, CVE-2020-17141, CVE-2020-17142."
 CVE-2020-0986,7.8,0.01178,"A privilege escalation vulnerability exists when the Windows kernel fails to properly handle objects in memory, aka 'Windows Kernel Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-1237, CVE-2020-1246, CVE-2020-1262, CVE-2020-1264, CVE-2020-1266, CVE-2020-1269, CVE-2020-1273, CVE-2020-1274, CVE-2020-1275, CVE-2020-1276, CVE-2020-1307, CVE-2020-1316."
-CVE-2020-1020,8.8,0.37706,A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font - Adobe Type 1 PostScript format. This CVE ID is unique from CVE-2020-0938.
+CVE-2020-1020,8.8,0.3686,A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font - Adobe Type 1 PostScript format. This CVE ID is unique from CVE-2020-0938.
 CVE-2021-38645,7.8,0.0115,Open Management Infrastructure Privilege Escalation Vulnerability
 CVE-2021-34523,9.8,0.16784,"Microsoft Exchange Server Privilege Escalation Vulnerability. This CVE ID is unique from CVE-2021-33768, CVE-2021-34470."
 CVE-2017-7269,9.8,0.95146,"Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with ""If: <http://"" in a PROPFIND request."
@@ -182,7 +182,7 @@ CVE-2017-0199,7.8,0.95487,"Allows remote attackers to execute arbitrary code via
 CVE-2020-1380,7.5,0.0507,"A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-1555, CVE-2020-1570."
 CVE-2019-1429,7.5,0.48493,"A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer. This CVE ID is unique from CVE-2019-1426, CVE-2019-1427, CVE-2019-1428."
 CVE-2017-11774,7.8,0.36086,"Allows an attacker to execute arbitrary commands, due to how Microsoft Office handles objects in memory, aka ""Microsoft Outlook Security Feature Bypass Vulnerability."""
-CVE-2020-0968,7.5,0.01875,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer. This CVE ID is unique from CVE-2020-0970.
+CVE-2020-0968,7.5,0.02034,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer. This CVE ID is unique from CVE-2020-0970.
 CVE-2020-1472,10.0,0.95011,"A privilege escalation vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka 'Netlogon Elevation of Privilege Vulnerability'."
 CVE-2021-26855,9.8,0.96737,"Microsoft Exchange Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078."
 CVE-2021-26858,7.8,0.31092,"Microsoft Exchange Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26857, CVE-2021-27065, CVE-2021-27078."
@@ -585,7 +585,7 @@ CVE-2016-7200,7.5,0.91084,The Chakra JavaScript scripting engine in Microsoft Ed
 CVE-2016-0189,7.5,0.94913,"The Microsoft JScript nd VBScript engines, as used in Internet Explorer and other products, allow attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site."
 CVE-2016-0151,7.8,0.01713,"The Client-Server Run-time Subsystem (CSRSS) in Microsoft mismanages process tokens, which allows local users to gain privileges via a crafted application."
 CVE-2016-0040,7.8,0.03613,The kernel in Microsoft Windows allows local users to gain privileges via a crafted application.
-CVE-2015-2426,,0.58338,A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles specially crafted OpenType fonts.
+CVE-2015-2426,,0.60144,A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles specially crafted OpenType fonts.
 CVE-2015-2419,,0.56299,JScript in Microsoft Internet Explorer allows remote attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.
 CVE-2015-1770,,0.47389,Microsoft Office allows remote attackers to execute arbitrary code via a crafted Office document.
 CVE-2013-3660,,0.06037,"The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft does not properly initialize a pointer for the next object in a certain list, which allows local users to gain privileges."
