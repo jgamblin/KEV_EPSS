@@ -307,7 +307,7 @@ CVE-2010-1871,,0.84803,"JBoss Seam 2 (jboss-seam2), as used in JBoss Enterprise 
 CVE-2020-17463,9.8,0.01018,"FUEL CMS 1.4.7 allows SQL Injection via the col parameter to /pages/items, /permissions/items, or /navigation/items."
 CVE-2020-8816,7.2,0.84911,Pi-hole Web v4.3.2 (aka AdminLTE) allows Remote Code Execution by privileged dashboard users via a crafted DHCP static lease.
 CVE-2019-10758,9.9,0.26588,mongo-express before 0.54.0 is vulnerable to Remote Code Execution via endpoints that uses the `toBSON` method.
-CVE-2021-44228,10.0,0.95466,"Apache Log4j2 contains a vulnerability where JNDI features do not protect against attacker-controlled JNDI-related endpoints, allowing for remote code execution."
+CVE-2021-44228,10.0,0.97095,"Apache Log4j2 contains a vulnerability where JNDI features do not protect against attacker-controlled JNDI-related endpoints, allowing for remote code execution."
 CVE-2021-43890,7.1,0.0115,"Microsoft Windows AppX Installer contains a spoofing vulnerability which has a high impacts to confidentiality, integrity, and availability."
 CVE-2021-4102,8.8,0.01055,Google Chromium V8 Engine contains a use-after-free vulnerability which can allow a remote attacker to execute arbitrary code on the target system.
 CVE-2021-22017,5.3,0.00885,Rhttproxy as used in vCenter Server contains a vulnerability due to improper implementation of URI normalization.
@@ -365,7 +365,7 @@ CVE-2016-3088,9.8,0.94469,The Fileserver web application in Apache ActiveMQ allo
 CVE-2015-2051,,0.07584,D-Link DIR-645 Wired/Wireless Router allows remote attackers to execute arbitrary commands via a GetDeviceSettings action to the HNAP interface.
 CVE-2015-1635,,0.93779,Microsoft HTTP protocol stack (HTTP.sys) contains a vulnerability which allows for remote code execution.
 CVE-2015-1130,,0.02302,The XPC implementation in Admin Framework in Apple OS X before 10.10.3 allows local users to bypass authentication and obtain admin privileges.
-CVE-2014-4404,,0.51879,"Heap-based buffer overflow in IOHIDFamily in Apple OS X, which affects, iOS before 8 and Apple TV before 7, allows attackers to execute arbitrary code in a privileged context."
+CVE-2014-4404,,0.53878,"Heap-based buffer overflow in IOHIDFamily in Apple OS X, which affects, iOS before 8 and Apple TV before 7, allows attackers to execute arbitrary code in a privileged context."
 CVE-2022-22620,8.8,0.18168,"Apple Webkit, which impacts iOS, iPadOS, and macOS, contains a vulnerability which allows for remote code execution."
 CVE-2022-24086,9.8,0.35544,Adobe Commerce and Magento Open Source contain an improper input validation vulnerability which can allow for arbitrary code execution.
 CVE-2022-0609,8.8,0.01055,The vulnerability exists due to a use-after-free error within the Animation component in Google Chrome.
@@ -465,7 +465,7 @@ CVE-2012-1856,,0.48722,The TabStrip ActiveX control in the Common Controls in MS
 CVE-2012-1723,,0.90084,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot."
 CVE-2012-1535,,0.89105,Unspecified vulnerability in Adobe Flash Player allows remote attackers to execute arbitrary code or cause a denial of service via crafted SWF content.
 CVE-2012-0507,,0.76282,An incorrect type vulnerability exists in the Concurrency component of Oracle's Java Runtime Environment allows an attacker to remotely execute arbitrary code.
-CVE-2011-3544,,0.81896,An access control vulnerability exists in the Applet Rhino Script Engine component of Oracle's Java Runtime Environment allows an attacker to remotely execute arbitrary code.
+CVE-2011-3544,,0.81356,An access control vulnerability exists in the Applet Rhino Script Engine component of Oracle's Java Runtime Environment allows an attacker to remotely execute arbitrary code.
 CVE-2011-1889,,0.62357,A remote code execution vulnerability exists in the Forefront Threat Management Gateway (TMG) Firewall Client Winsock provider that could allow code execution in the security context of the client application.
 CVE-2011-0611,,0.8246,Adobe Flash Player contains a vulnerability which allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via crafted Flash content.
 CVE-2010-3333,,0.89491,A stack-based buffer overflow vulnerability exists in the parsing of RTF data in Microsoft Office and earlier allows an attacker to perform remote code execution.
@@ -809,7 +809,7 @@ CVE-2021-31010,7.5,0.01018,"In affected versions of Apple iOS, macOS, and watchO
 CVE-2020-36193,7.5,0.01537,PEAR Archive_Tar Tar.php allows write operations with directory traversal due to inadequate checking of symbolic links. PEAR stands for PHP Extension and Application Repository and it is an open-source framework and distribution system for reusable PHP components with known usage in third-party products such as Drupal Core and Red Hat Linux.
 CVE-2020-28949,7.8,0.8019,PEAR Archive_Tar allows an unserialization attack because phar: is blocked but PHAR: is not blocked. PEAR stands for PHP Extension and Application Repository and it is an open-source framework and distribution system for reusable PHP components with known usage in third-party products such as Drupal Core and Red Hat Linux.
 CVE-2022-3075,9.6,0.01213,"Google Chromium Mojo contains an insufficient data validation vulnerability. Impacts from exploitation are not yet known. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
-CVE-2022-28958,9.8,0.01978,D-Link DIR-816L contains an unspecified vulnerability in the shareport.php value parameter which allows for remote code execution.
+CVE-2022-28958,9.8,0.05634,D-Link DIR-816L contains an unspecified vulnerability in the shareport.php value parameter which allows for remote code execution.
 CVE-2022-27593,9.1,0.00885,Certain QNAP NAS running Photo Station with internet exposure contain an externally controlled reference to a resource vulnerability which can allow an attacker to modify system files. This vulnerability was observed being utilized in a Deadbolt ransomware campaign.
 CVE-2022-26258,9.8,0.05634,D-Link DIR-820L contains an unspecified vulnerability in Device Name parameter in /lan.asp which allows for remote code execution.
 CVE-2020-9934,5.5,0.02164,"Apple iOS, iPadOS, and macOS contain an unspecified vulnerability involving input validation which can allow a local attacker to view sensitive user information."
