@@ -667,7 +667,7 @@ CVE-2020-1027,7.8,0.01178,An elevation of privilege vulnerability exists in the 
 CVE-2020-0638,7.8,0.00908,Microsoft Update Notification Manager contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2019-7286,7.8,0.02362,"Apple iOS, macOS, watchOS, and tvOS contain a memory corruption vulnerability that could allow for privilege escalation."
 CVE-2019-7287,7.8,0.01036,Apple iOS contains a memory corruption vulnerability which could allow an attacker to perform remote code execution.
-CVE-2019-0676,6.5,0.04026,An information disclosure vulnerability exists when Internet Explorer improperly handles objects in memory. An attacker who successfully exploited this vulnerability could test for the presence of files on disk.
+CVE-2019-0676,6.5,0.04434,An information disclosure vulnerability exists when Internet Explorer improperly handles objects in memory. An attacker who successfully exploited this vulnerability could test for the presence of files on disk.
 CVE-2019-5786,6.5,0.8736,Google Chrome contains a heap use-after-free vulnerability which allows an attacker to potentially perform out of bounds memory access.
 CVE-2019-0703,6.5,0.01376,"An information disclosure vulnerability exists in the way that the Windows SMB Server handles certain requests, which could lead to information disclosure from the server."
 CVE-2019-0880,7.8,0.01376,A local elevation of privilege vulnerability exists in how splwow64.exe handles certain calls. An attacker who successfully exploited the vulnerability could elevate privileges on an affected system from low-integrity to medium-integrity.
