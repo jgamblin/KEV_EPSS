@@ -339,7 +339,7 @@ CVE-2020-13671,8.8,0.0089,Improper sanitization in the extension file names is p
 CVE-2020-11978,8.8,0.16531,A remote code/command injection vulnerability was discovered in one of the example DAGs shipped with Airflow.
 CVE-2020-13927,9.8,0.16531,The previous default setting for Airflow's Experimental API was to allow all API requests without authentication.
 CVE-2006-1547,,0.07563,ActionForm in Apache Struts versions before 1.2.9 with BeanUtils 1.7 contains a vulnerability which allows for denial-of-service.
-CVE-2012-0391,,0.79605,The ExceptionDelegator component in Apache Struts 2 before 2.2.3.1 contains an improper input validation vulnerability which allows for remote code execution.
+CVE-2012-0391,,0.78646,The ExceptionDelegator component in Apache Struts 2 before 2.2.3.1 contains an improper input validation vulnerability which allows for remote code execution.
 CVE-2018-8453,7.8,0.39806,Microsoft Windows Win32k contains a vulnerability which allows an attacker to escalate privileges.
 CVE-2021-35247,5.3,0.00885,SolarWinds Serv-U versions 15.2.5 and earlier contain an improper input validation vulnerability which allows attackers to build and send queries without sanitization.
 CVE-2022-22587,9.8,0.01843,Apple IOMobileFrameBuffer contains a memory corruption vulnerability which can allow a malicious application to execute arbitrary code with kernel privileges.
