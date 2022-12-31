@@ -208,7 +208,7 @@ CVE-2019-15949,8.8,0.60894,"The exploit requires access to the server as the nag
 CVE-2020-26919,9.8,0.00885,NETGEAR JGS516PE devices before 2.6.0.43 are affected by lack of access control at the function level.
 CVE-2019-19356,7.5,0.44855,Netis WF2419 is vulnerable to authenticated Remote Code Execution (RCE) as root through the router Web management page. The vulnerability has been found in firmware version V1.2.31805 and V2.2.36123
 CVE-2020-2555,9.8,0.94023,Allows unauthenticated attacker with network access via T3 to compromise Oracle Coherence. Successful attacks of this vulnerability can result in takeover of Oracle Coherence
-CVE-2012-3152,,0.82741,Allows remote attackers to affect confidentiality and integrity via unknown vectors related to Report Server Component.
+CVE-2012-3152,,0.82238,Allows remote attackers to affect confidentiality and integrity via unknown vectors related to Report Server Component.
 CVE-2020-14871,10.0,0.92145,Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Solaris.
 CVE-2015-4852,,0.92712,"Allows remote attackers to execute arbitrary commands via a crafted serialized Java object in T3 protocol traffic to TCP port 7001, related to oracle_common/modules/com.bea.core.apache.commons.collections.jar."
 CVE-2020-14750,9.8,0.95975,Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server.
@@ -477,8 +477,8 @@ CVE-2008-3431,,0.0322,An input validation vulnerability exists in the VBoxDrv.sy
 CVE-2008-2992,,0.8635,Adobe Acrobat and Reader contain an input validation issue in a JavaScript method that could potentially lead to remote code execution.
 CVE-2004-0210,,0.04459,A privilege elevation vulnerability exists in the POSIX subsystem. This vulnerability could allow a logged on user to take complete control of the system.
 CVE-2002-0367,,0.02582,"smss.exe debugging subsystem in Microsoft Windows does not properly authenticate programs that connect to other programs, which allows local users to gain administrator or SYSTEM privileges."
-CVE-2022-26486,,0.00885,Mozilla Firefox contains a use-after-free vulnerability in WebGPU IPC Framework which can be exploited to perform arbitrary code execution.
-CVE-2022-26485,,0.00885,Mozilla Firefox contains a use-after-free vulnerability in XSLT parameter processing which can be exploited to perform arbitrary code execution.
+CVE-2022-26486,9.6,0.00885,Mozilla Firefox contains a use-after-free vulnerability in WebGPU IPC Framework which can be exploited to perform arbitrary code execution.
+CVE-2022-26485,8.8,0.00885,Mozilla Firefox contains a use-after-free vulnerability in XSLT parameter processing which can be exploited to perform arbitrary code execution.
 CVE-2021-21973,5.3,0.08592,VMware vCenter Server and Cloud Foundation Server contain a SSRF vulnerability due to improper validation of URLs in a vCenter Server plugin. This allows for information disclosure.
 CVE-2020-8218,7.2,0.19462,A code injection vulnerability exists in Pulse Connect Secure that allows an attacker to crafted a URI to perform an arbitrary code execution via the admin web interface.
 CVE-2019-11581,9.8,0.94893,Atlassian Jira Server and Data Center contain a server-side template injection vulnerability which can allow for remote code execution.
@@ -595,7 +595,7 @@ CVE-2013-2729,,0.80415,Integer overflow vulnerability in Adobe Reader and Acroba
 CVE-2013-2551,,0.91022,Use-after-free vulnerability in Microsoft Internet Explorer allows remote attackers to execute remote code via a crafted web site that triggers access to a deleted object.
 CVE-2013-2465,,0.82882,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D"
 CVE-2013-1690,,0.83349,"Mozilla Firefox and Thunderbird do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial-of-service or possibly execute arbitrary code via a crafted web site."
-CVE-2012-5076,,0.82072,The default Java security properties configuration did not restrict access to the com.sun.org.glassfish.external and com.sun.org.glassfish.gmbal packages. An untrusted Java application or applet could use these flaws to bypass Java sandbox restrictions.
+CVE-2012-5076,,0.81553,The default Java security properties configuration did not restrict access to the com.sun.org.glassfish.external and com.sun.org.glassfish.gmbal packages. An untrusted Java application or applet could use these flaws to bypass Java sandbox restrictions.
 CVE-2012-2539,,0.37613,Microsoft Word allows attackers to execute remote code or cause a denial-of-service via crafted RTF data.
 CVE-2012-2034,,0.03444,Adobe Flash Player contains a memory corruption vulnerability which allows for remote code execution or denial-of-service.
 CVE-2012-0518,,0.01055,Unspecified vulnerability in the Oracle Application Server Single Sign-On component in Oracle Fusion Middleware allows remote attackers to affect integrity via unknown vectors
