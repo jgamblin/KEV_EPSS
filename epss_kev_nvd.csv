@@ -449,7 +449,7 @@ CVE-2015-2545,,0.60913,Microsoft Office allows remote attackers to execute arbit
 CVE-2015-2424,,0.40161,Microsoft PowerPoint allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted Office document.
 CVE-2015-2387,,0.02193,ATMFD.DLL in the Adobe Type Manager Font Driver in Microsoft Windows Server allows local users to gain privileges via a crafted application.
 CVE-2015-1701,,0.03613,An unspecified vulnerability exists in the Win32k.sys kernel-mode driver in Microsoft Windows Server that allows a local attacker to execute arbitrary code with elevated privileges.
-CVE-2015-1642,,0.45528,Microsoft Office contains a memory corruption vulnerability which allows remote attackers to execute arbitrary code via a crafted document.
+CVE-2015-1642,,0.47389,Microsoft Office contains a memory corruption vulnerability which allows remote attackers to execute arbitrary code via a crafted document.
 CVE-2014-4114,,0.89037,A vulnerability exists in Windows Object Linking & Embedding (OLE) that could allow remote code execution if a user opens a file that contains a specially crafted OLE object.
 CVE-2014-0496,,0.05268,Adobe Reader and Acrobat contain a use-after-free vulnerability which can allow for code execution.
 CVE-2013-5065,,0.03613,Microsoft Windows NDProxy.sys in the kernel contains an improper input validation vulnerability which can allow a local attacker to escalate privileges.
