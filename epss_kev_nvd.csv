@@ -531,7 +531,7 @@ CVE-2018-8414,8.8,0.56075,A remote code execution vulnerability exists when the 
 CVE-2018-8373,7.5,0.56075,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer.
 CVE-2018-6961,8.1,0.55189,VMware SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component. Successful exploitation of this issue could result in remote code execution.
 CVE-2018-14839,9.8,0.01156,LG N1A1 NAS 3718.510 is affected by a remote code execution vulnerability.
-CVE-2018-1273,9.8,0.86372,Spring Data Commons contains a property binder vulnerability which can allow an attacker to perform remote code execution.
+CVE-2018-1273,9.8,0.85039,Spring Data Commons contains a property binder vulnerability which can allow an attacker to perform remote code execution.
 CVE-2018-11138,9.8,0.7962,The '/common/download_agent_installer.php' script in the Quest KACE System Management Appliance is accessible by anonymous users and can be abused to perform remote code execution.
 CVE-2018-0147,9.8,0.01136,"A vulnerability in Java deserialization used by Cisco Secure Access Control System (ACS) could allow an unauthenticated, remote attacker to execute arbitrary commands on an affected device. The vulnerability is due to insecure deserialization of user-supplied content by the affected software."
 CVE-2018-0125,9.8,0.03795,"A vulnerability in the web interface of the Cisco VPN Routers could allow an unauthenticated, remote attacker to execute arbitrary code as root and gain full control of an affected system."
