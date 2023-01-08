@@ -105,7 +105,7 @@ CVE-2020-6418,8.8,0.93592,Type confusion in V8 in Google Chrome prior to 80.0.39
 CVE-2021-30554,8.8,0.01213,Use after free in WebGL in Google Chrome prior to 91.0.4472.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-21206,8.8,0.01319,Use after free in Blink in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-38000,6.1,0.01213,
-CVE-2021-38003,8.8,0.01213,
+CVE-2021-38003,8.8,0.09187,
 CVE-2021-21224,8.8,0.57747,Type confusion in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
 CVE-2021-21193,8.8,0.01213,Use after free in Blink in Google Chrome prior to 89.0.4389.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-21220,8.8,0.84469,Insufficient validation of untrusted input in V8 in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -589,7 +589,7 @@ CVE-2016-0151,7.8,0.01713,"The Client-Server Run-time Subsystem (CSRSS) in Micro
 CVE-2016-0040,7.8,0.03613,The kernel in Microsoft Windows allows local users to gain privileges via a crafted application.
 CVE-2015-2426,,0.60144,A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles specially crafted OpenType fonts.
 CVE-2015-2419,,0.56299,JScript in Microsoft Internet Explorer allows remote attackers to execute remote code or cause a denial of service (memory corruption) via a crafted web site.
-CVE-2015-1770,,0.47389,Microsoft Office allows remote attackers to execute arbitrary code via a crafted Office document.
+CVE-2015-1770,,0.49719,Microsoft Office allows remote attackers to execute arbitrary code via a crafted Office document.
 CVE-2013-3660,,0.06037,"The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft does not properly initialize a pointer for the next object in a certain list, which allows local users to gain privileges."
 CVE-2013-2729,,0.80415,Integer overflow vulnerability in Adobe Reader and Acrobat allows attackers to execute remote code.
 CVE-2013-2551,,0.91022,Use-after-free vulnerability in Microsoft Internet Explorer allows remote attackers to execute remote code via a crafted web site that triggers access to a deleted object.
@@ -710,7 +710,7 @@ CVE-2016-0034,8.8,0.40367,"Microsoft Silverlight mishandles negative offsets dur
 CVE-2015-0310,,0.01396,"Adobe Flash Player does not properly restrict discovery of memory addresses, which allows attackers to bypass the address space layout randomization (ASLR) protection mechanism."
 CVE-2015-0016,,0.78794,Directory traversal vulnerability in the TS WebProxy (TSWbPrxy) component in Microsoft Windows allows remote attackers to escalate privileges.
 CVE-2015-0071,,0.29797,Microsoft Internet Explorer allows remote attackers to bypass the address space layout randomization (ASLR) protection mechanism via a crafted web site.
-CVE-2015-2360,,0.01492,Win32k.sys in the kernel-mode drivers in Microsoft Windows allows local users to gain privileges or cause denial-of-service.
+CVE-2015-2360,,0.01268,Win32k.sys in the kernel-mode drivers in Microsoft Windows allows local users to gain privileges or cause denial-of-service.
 CVE-2015-2425,,0.30572,Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code or cause denial-of-service.
 CVE-2015-1769,,0.02503,A privilege escalation vulnerability exists when the Windows Mount Manager component improperly processes symbolic links.
 CVE-2015-4495,,0.91899,Moxilla Firefox allows remote attackers to bypass the Same Origin Policy to read arbitrary files or gain privileges.
@@ -762,7 +762,7 @@ CVE-2012-0151,,0.62357,"The Authenticode Signature Verification function in Micr
 CVE-2011-2462,,0.89103,The Universal 3D (U3D) component in Adobe Acrobat and Reader contains a memory corruption vulnerability which could allow remote attackers to execute code or cause denial-of-service.
 CVE-2011-0609,,0.84719,Adobe Flash Player contains an unspecified vulnerability which allows remote attackers to execute code or cause denial-of-service.
 CVE-2010-2883,,0.77982,Adobe Acrobat and Reader contain a stack-based buffer overflow vulnerability which allows remote attackers to execute code or cause denial-of-service.
-CVE-2010-2572,,0.49719,Microsoft PowerPoint contains a buffer overflow vulnerability that alllows for remote code execution.
+CVE-2010-2572,,0.38714,Microsoft PowerPoint contains a buffer overflow vulnerability that alllows for remote code execution.
 CVE-2010-1297,,0.72538,Adobe Flash Player contains a memory corruption vulnerability that allows remote attackers to execute code or cause denial-of-service.
 CVE-2009-4324,,0.87265,Use-after-free vulnerability in Adobe Acrobat and Reader allows remote attackers to execute code via a crafted PDF file.
 CVE-2009-3953,,0.92123,Adobe Acrobat and Reader contains an array boundary issue in Universal 3D (U3D) support that could lead to remote code execution.
