@@ -866,3 +866,4 @@ CVE-2022-26501,9.8,0.0144,The Veeam Distribution Service in the Backup & Replica
 CVE-2022-42856,8.8,0.02806,Apple iOS contains a type confusion vulnerability when processing maliciously crafted web content leading to code execution.
 CVE-2018-5430,8.8,0.07308,"TIBCO JasperReports Server contain a vulnerability which may allow any authenticated user read-only access to the contents of the web application, including key configuration files."
 CVE-2018-18809,6.5,0.01034,TIBCO JasperReports Library contains a directory-traversal vulnerability that may allow web server users to access contents of the host system.
+CVE-2022-41080,9.8,0.02251,"Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation. This vulnerability is chainable with CVE-2022-41082, which allows for remote code execution."
