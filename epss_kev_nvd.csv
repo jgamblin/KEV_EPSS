@@ -296,7 +296,7 @@ CVE-2021-37415,9.8,0.00885,Zoho ManageEngine ServiceDesk Plus before 11302 is vu
 CVE-2021-40438,9.0,0.97224,A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
 CVE-2021-44077,9.8,0.96021,"Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated remote code execution"
 CVE-2021-44515,9.8,0.05634,Zoho Desktop Central contains an authentication bypass vulnerability that could allow an attacker to execute arbitrary code in the Desktop Central MSP server.
-CVE-2019-13272,7.8,0.0241,Kernel/ptrace.c in Linux kernel mishandles contains an improper privilege management vulnerability which allows local users to obtain root access.
+CVE-2019-13272,7.8,0.02302,Kernel/ptrace.c in Linux kernel mishandles contains an improper privilege management vulnerability which allows local users to obtain root access.
 CVE-2021-35394,9.8,0.01213,RealTek Jungle SDK contains multiple memory corruption vulnerabilities which can allow an attacker to perform remote code execution.
 CVE-2019-7238,9.8,0.8603,Sonatype Nexus Repository Manager before 3.15.0 has an incorrect access control vulnerability. Exploitation allows for remote code execution.
 CVE-2019-0193,7.2,0.31966,The optional Apache Solr module DataImportHandler contains a code injection vulnerability.
@@ -620,7 +620,7 @@ CVE-2021-42287,8.8,0.02288,Microsoft Active Directory Domain Services contains a
 CVE-2021-42278,8.8,0.02288,Microsoft Active Directory Domain Services contains an unspecified vulnerability which allows for privilege escalation.
 CVE-2021-39793,7.8,0.01036,Google Pixel contains a possible out-of-bounds write due to a logic error in the code that could lead to local escalation of privilege.
 CVE-2021-27852,9.8,0.01156,Deserialization of Untrusted Data vulnerability in CheckboxWeb.dll of Checkbox Survey allows an unauthenticated remote attacker to execute arbitrary code.
-CVE-2021-22600,7.8,0.0089,Linux Kernel contains a flaw in the packet socket (AF_PACKET) implementation which could lead to incorrectly freeing memory. A local user could exploit this for denial-of-service or possibly for privilege escalation.
+CVE-2021-22600,7.8,0.0095,Linux Kernel contains a flaw in the packet socket (AF_PACKET) implementation which could lead to incorrectly freeing memory. A local user could exploit this for denial-of-service or possibly for privilege escalation.
 CVE-2020-2509,9.8,0.09029,QNAP NAS devices contain a command injection vulnerability which could allow attackers to perform remote code execution.
 CVE-2017-11317,9.8,0.51031,Telerik.Web.UI in Progress Telerik UI for ASP.NET AJAX allows remote attackers to perform arbitrary file uploads or execute arbitrary code.
 CVE-2022-24521,7.8,0.0115,Microsoft Windows Common Log File System (CLFS) Driver contains an unspecified vulnerability that allows for privilege escalation.
@@ -866,4 +866,4 @@ CVE-2022-26501,9.8,0.0144,The Veeam Distribution Service in the Backup & Replica
 CVE-2022-42856,8.8,0.02806,Apple iOS contains a type confusion vulnerability when processing maliciously crafted web content leading to code execution.
 CVE-2018-5430,8.8,0.07308,"TIBCO JasperReports Server contain a vulnerability which may allow any authenticated user read-only access to the contents of the web application, including key configuration files."
 CVE-2018-18809,6.5,0.01034,TIBCO JasperReports Library contains a directory-traversal vulnerability that may allow web server users to access contents of the host system.
-CVE-2022-41080,9.8,0.02251,"Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation. This vulnerability is chainable with CVE-2022-41082, which allows for remote code execution."
+CVE-2022-41080,9.8,0.12963,"Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation. This vulnerability is chainable with CVE-2022-41082, which allows for remote code execution."
