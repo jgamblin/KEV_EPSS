@@ -164,7 +164,7 @@ CVE-2021-26411,7.5,0.02649,Internet Explorer Memory Corruption Vulnerability
 CVE-2019-0859,7.8,0.01641,"A privilege escalation vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0685, CVE-2019-0803."
 CVE-2021-40444,7.8,0.90841,Microsoft MSHTML Remote Code Execution Vulnerability
 CVE-2017-8759,7.8,0.91829,"Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow an attacker to execute code remotely via a malicious document or application."
-CVE-2018-8653,7.5,0.12683,"A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka ""Scripting Engine Memory Corruption Vulnerability."" This CVE ID is unique from CVE-2018-8643."
+CVE-2018-8653,7.5,0.1337,"A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka ""Scripting Engine Memory Corruption Vulnerability."" This CVE ID is unique from CVE-2018-8643."
 CVE-2019-0797,7.8,0.01376,"A privilege escalation vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0808."
 CVE-2021-36942,5.3,0.26327,"Windows Local Security Authority (LSA) Spoofing Vulnerability ""PetitPotam"""
 CVE-2019-1215,7.8,0.01865,"A privilege escalation vulnerability exists in the way that ws2ifsl.sys (Winsock) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1253, CVE-2019-1278, CVE-2019-1303."
