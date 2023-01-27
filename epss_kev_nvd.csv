@@ -869,3 +869,4 @@ CVE-2018-18809,6.5,0.01034,TIBCO JasperReports Library contains a directory-trav
 CVE-2022-41080,9.8,0.12963,"Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation. This vulnerability is chainable with CVE-2022-41082, which allows for remote code execution."
 CVE-2022-44877,9.8,0.30745,CWP Control Web Panel (formerly CentOS Web Panel) contains an OS command injection vulnerability that allows remote attackers to execute commands via shell metacharacters in the login parameter.
 CVE-2022-47966,9.8,0.63387,"Multiple Zoho ManageEngine products contain an unauthenticated remote code execution vulnerability due to the usage of an outdated third-party dependency, Apache Santuario."
+CVE-2017-11357,9.8,0.21929,Telerik UI for ASP.NET AJAX contains an insecure direct object reference vulnerability in RadAsyncUpload that can result in file uploads in a limited location and/or remote code execution.
