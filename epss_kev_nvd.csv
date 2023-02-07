@@ -517,7 +517,7 @@ CVE-2020-2506,9.8,0.00885,QNAP Helpdesk contains an improper access control vuln
 CVE-2020-2021,10.0,0.10855,Palo Alto Networks PAN-OS contains a vulnerability in SAML which allows an attacker to bypass authentication.
 CVE-2020-1956,8.8,0.2406,Apache Kylin contains an OS command injection vulnerability which could permit an attacker to perform remote code execution.
 CVE-2020-1631,9.8,0.10855,"A path traversal vulnerability in the HTTP/HTTPS service used by J-Web, Web Authentication, Dynamic-VPN (DVPN), Firewall Authentication Pass-Through with Web-Redirect, and Zero Touch Provisioning (ZTP) allows an unauthenticated attacker to perform remote code execution."
-CVE-2019-6340,8.1,0.94596,"In Drupal Core, some field types do not properly sanitize data from non-form sources. This can lead to arbitrary PHP code execution in some cases."
+CVE-2019-6340,8.1,0.93819,"In Drupal Core, some field types do not properly sanitize data from non-form sources. This can lead to arbitrary PHP code execution in some cases."
 CVE-2019-2616,7.2,0.12108,"Oracle BI Publisher, formerly XML Publisher, contains an unspecified vulnerability which allows for various unauthorized actions. Open-source reporting attributes this vulnerability to allowing for authentication bypass."
 CVE-2019-16920,9.8,0.69867,Multiple D-Link routers contain a command injection vulnerability which can allow attackers to achieve full system compromise.
 CVE-2019-15107,9.8,0.9572,An issue was discovered in Webmin. The parameter old in password_change.cgi contains a command injection vulnerability.
@@ -868,6 +868,6 @@ CVE-2018-5430,8.8,0.07308,"TIBCO JasperReports Server contain a vulnerability wh
 CVE-2018-18809,6.5,0.01034,TIBCO JasperReports Library contains a directory-traversal vulnerability that may allow web server users to access contents of the host system.
 CVE-2022-41080,9.8,0.12963,"Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation. This vulnerability is chainable with CVE-2022-41082, which allows for remote code execution."
 CVE-2022-44877,9.8,0.9029,CWP Control Web Panel (formerly CentOS Web Panel) contains an OS command injection vulnerability that allows remote attackers to execute commands via shell metacharacters in the login parameter.
-CVE-2022-47966,9.8,0.63387,"Multiple Zoho ManageEngine products contain an unauthenticated remote code execution vulnerability due to the usage of an outdated third-party dependency, Apache Santuario."
+CVE-2022-47966,9.8,0.95627,"Multiple Zoho ManageEngine products contain an unauthenticated remote code execution vulnerability due to the usage of an outdated third-party dependency, Apache Santuario."
 CVE-2017-11357,9.8,0.21929,Telerik UI for ASP.NET AJAX contains an insecure direct object reference vulnerability in RadAsyncUpload that can result in file uploads in a limited location and/or remote code execution.
 CVE-2022-21587,9.8,0.27895,Oracle E-Business Suite contains an unspecified vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator.
