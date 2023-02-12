@@ -446,8 +446,8 @@ CVE-2015-4902,,0.04358,Unspecified vulnerability in Oracle Java SE allows remote
 CVE-2015-3043,,0.0443,A memory corruption vulnerability exists in Adobe Flash Player that allows an attacker to perform remote code execution.
 CVE-2015-2590,,0.04358,An unspecified vulnerability exists within Oracle Java Runtime Environment that allows an attacker to perform remote code execution.
 CVE-2015-2545,,0.62679,Microsoft Office allows remote attackers to execute arbitrary code via a crafted EPS image.
-CVE-2015-2424,,0.40161,Microsoft PowerPoint allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted Office document.
-CVE-2015-2387,,0.02193,ATMFD.DLL in the Adobe Type Manager Font Driver in Microsoft Windows Server allows local users to gain privileges via a crafted application.
+CVE-2015-2424,,0.42421,Microsoft PowerPoint allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted Office document.
+CVE-2015-2387,,0.01866,ATMFD.DLL in the Adobe Type Manager Font Driver in Microsoft Windows Server allows local users to gain privileges via a crafted application.
 CVE-2015-1701,,0.03613,An unspecified vulnerability exists in the Win32k.sys kernel-mode driver in Microsoft Windows Server that allows a local attacker to execute arbitrary code with elevated privileges.
 CVE-2015-1642,,0.47389,Microsoft Office contains a memory corruption vulnerability which allows remote attackers to execute arbitrary code via a crafted document.
 CVE-2014-4114,,0.89037,A vulnerability exists in Windows Object Linking & Embedding (OLE) that could allow remote code execution if a user opens a file that contains a specially crafted OLE object.
@@ -711,7 +711,7 @@ CVE-2015-0310,,0.01396,"Adobe Flash Player does not properly restrict discovery 
 CVE-2015-0016,,0.78794,Directory traversal vulnerability in the TS WebProxy (TSWbPrxy) component in Microsoft Windows allows remote attackers to escalate privileges.
 CVE-2015-0071,,0.29797,Microsoft Internet Explorer allows remote attackers to bypass the address space layout randomization (ASLR) protection mechanism via a crafted web site.
 CVE-2015-2360,,0.01268,Win32k.sys in the kernel-mode drivers in Microsoft Windows allows local users to gain privileges or cause denial-of-service.
-CVE-2015-2425,,0.30572,Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code or cause denial-of-service.
+CVE-2015-2425,,0.32587,Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code or cause denial-of-service.
 CVE-2015-1769,,0.02503,A privilege escalation vulnerability exists when the Windows Mount Manager component improperly processes symbolic links.
 CVE-2015-4495,,0.91899,Moxilla Firefox allows remote attackers to bypass the Same Origin Policy to read arbitrary files or gain privileges.
 CVE-2015-8651,8.8,0.04098,Integer overflow in Adobe Flash Player allows attackers to execute code.
