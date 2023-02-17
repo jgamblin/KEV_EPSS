@@ -873,3 +873,4 @@ CVE-2017-11357,9.8,0.27301,Telerik UI for ASP.NET AJAX contains an insecure dire
 CVE-2022-21587,9.8,0.27895,Oracle E-Business Suite contains an unspecified vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator.
 CVE-2015-2291,7.8,0.02759,Intel ethernet diagnostics driver for Windows IQVW32.sys and IQVW64.sys contain an unspecified vulnerability that allows for a denial-of-service.
 CVE-2022-24990,,0.03276,TerraMaster OS contains a remote command execution vulnerability that allows an unauthenticated user to execute commands on the target endpoint.
+CVE-2022-46169,9.8,0.8409,Cacti contains a command injection vulnerability that allows an unauthenticated user to execute code.
