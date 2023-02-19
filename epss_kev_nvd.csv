@@ -191,7 +191,7 @@ CVE-2020-1054,7.8,0.09099,A privilege escalation vulnerability exists in Windows
 CVE-2021-1675,8.8,0.16435,Windows Print Spooler Privilege Escalation Vulnerability
 CVE-2021-34448,8.8,0.02649,Scripting Engine Memory Corruption Vulnerability
 CVE-2020-0601,8.1,0.3832,"A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates. An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'."
-CVE-2019-0604,9.8,0.84132,"A remote code execution vulnerability exists in Microsoft SharePoint when the software fails to check the source markup of an application package, aka 'Microsoft SharePoint Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-0594."
+CVE-2019-0604,9.8,0.81843,"A remote code execution vulnerability exists in Microsoft SharePoint when the software fails to check the source markup of an application package, aka 'Microsoft SharePoint Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-0594."
 CVE-2020-0646,9.8,0.81152,"A remote code execution vulnerability exists when the Microsoft .NET Framework fails to validate input properly, aka '.NET Framework Remote Code Execution Injection Vulnerability'."
 CVE-2019-0808,7.8,0.19708,"A privilege escalation vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0797."
 CVE-2021-26857,7.8,0.31092,"Microsoft Exchange Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078."
@@ -345,7 +345,7 @@ CVE-2021-35247,5.3,0.00885,SolarWinds Serv-U versions 15.2.5 and earlier contain
 CVE-2022-22587,9.8,0.01843,Apple IOMobileFrameBuffer contains a memory corruption vulnerability which can allow a malicious application to execute arbitrary code with kernel privileges.
 CVE-2021-20038,9.8,0.63387,SonicWall SMA 100 devies are vulnerable to an unauthenticated stack-based buffer overflow vulnerability where exploitation can result in code execution.
 CVE-2020-5722,9.8,0.72925,Grandstream UCM6200 series is vulnerable to an unauthenticated remote SQL injection via crafted HTTP request. Exploitation can allow for code execution as root.
-CVE-2020-0787,7.8,0.09099,Microsoft Windows BITS is vulnerable to to a privilege elevation vulnerability if it improperly handles symbolic links. An actor can exploit this vulnerability to execute arbitrary code with system-level privileges.
+CVE-2020-0787,7.8,0.10723,Microsoft Windows BITS is vulnerable to to a privilege elevation vulnerability if it improperly handles symbolic links. An actor can exploit this vulnerability to execute arbitrary code with system-level privileges.
 CVE-2017-5689,9.8,0.94853,Intel products contain a vulnerability which can allow attackers to perform privilege escalation.
 CVE-2014-1776,,0.59823,Microsoft Internet Explorer 6 - 11 contains a use-after-free vulnerability which can allow for arbitrary code execution or denial of service.
 CVE-2014-6271,9.8,0.96235,"GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code."
