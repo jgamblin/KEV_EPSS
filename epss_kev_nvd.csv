@@ -369,7 +369,7 @@ CVE-2014-4404,,0.53878,"Heap-based buffer overflow in IOHIDFamily in Apple OS X,
 CVE-2022-22620,8.8,0.18168,"Apple Webkit, which impacts iOS, iPadOS, and macOS, contains a vulnerability which allows for remote code execution."
 CVE-2022-24086,9.8,0.35544,Adobe Commerce and Magento Open Source contain an improper input validation vulnerability which can allow for arbitrary code execution.
 CVE-2022-0609,8.8,0.01055,The vulnerability exists due to a use-after-free error within the Animation component in Google Chrome.
-CVE-2019-0752,7.5,0.90661,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer
+CVE-2019-0752,7.5,0.89648,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer
 CVE-2018-8174,7.5,0.91472,"A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka ""Windows VBScript Engine Remote Code Execution"""
 CVE-2018-20250,7.8,0.84806,WinRAR Absolute Path Traversal vulnerability leads to Remote Code Execution
 CVE-2018-15982,9.8,0.83578,Adobe Flash Player com.adobe.tvsdk.mediacore.metadata Use After Free Vulnerability
@@ -526,7 +526,7 @@ CVE-2019-12989,9.8,0.01018,Citrix SD-WAN and NetScaler SD-WAN allow SQL Injectio
 CVE-2019-11043,9.8,0.96,"In some versions of PHP in certain configurations of FPM setup, it is possible to cause FPM module to write past allocated buffers allowing the possibility of remote code execution."
 CVE-2019-10068,9.8,0.43385,Kentico contains a failure to validate security headers. This deserialization can led to unauthenticated remote code execution.
 CVE-2019-1003030,9.9,0.0968,"Jenkins Matrix Project plugin contains a vulnerability which can allow users to escape the sandbox, opening opportunity to perform remote code execution."
-CVE-2019-0903,8.8,0.02866,A remote code execution vulnerability exists in the way that the Windows Graphics Device Interface (GDI) handles objects in the memory. An attacker who successfully exploited this vulnerability could take control of the affected system.
+CVE-2019-0903,8.8,0.0316,A remote code execution vulnerability exists in the way that the Windows Graphics Device Interface (GDI) handles objects in the memory. An attacker who successfully exploited this vulnerability could take control of the affected system.
 CVE-2018-8414,8.8,0.56075,A remote code execution vulnerability exists when the Windows Shell does not properly validate file paths.
 CVE-2018-8373,7.5,0.56075,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer.
 CVE-2018-6961,8.1,0.55189,VMware SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component. Successful exploitation of this issue could result in remote code execution.
@@ -608,7 +608,7 @@ CVE-2021-28799,9.8,0.01055,QNAP NAS running HBS 3 contains an improper authoriza
 CVE-2021-21551,7.8,0.03171,"Dell dbutil driver contains an insufficient access control vulnerability which may lead to escalation of privileges, denial-of-service, or information disclosure."
 CVE-2018-10562,9.8,0.2217,"Dasan GPON Routers contain an authentication bypass vulnerability. When combined with CVE-2018-10561, exploitation can allow an attacker to perform remote code execution."
 CVE-2018-10561,9.8,0.12492,"Dasan GPON Routers contain an authentication bypass vulnerability. When combined with CVE-2018-10562, exploitation can allow an attacker to perform remote code execution."
-CVE-2022-22965,9.8,0.95668,Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding.
+CVE-2022-22965,9.8,0.95991,Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding.
 CVE-2022-22675,7.8,0.01237,macOS Monterey contains an out-of-bounds write vulnerability that could allow an application to execute arbitrary code with kernel privileges.
 CVE-2022-22674,5.5,0.0089,macOS Monterey contains an out-of-bounds read vulnerability that could allow an application to read kernel memory.
 CVE-2021-45382,9.8,0.01978,A remote code execution vulnerability exists in all series H/W revisions routers via the DDNS function in ncc2 binary file.
@@ -803,7 +803,7 @@ CVE-2022-0028,8.6,0.00885,A Palo Alto Networks PAN-OS URL filtering policy misco
 CVE-2022-26352,9.8,0.49583,"dotCMS ContentResource API contains an unrestricted upload of file with a dangerous type vulnerability that allows for directory traversal, in which the file is saved outside of the intended storage location. Exploitation allows for remote code execution."
 CVE-2022-24706,9.8,0.93016,Apache CouchDB contains an insecure default initialization of resource vulnerability which can allow an attacker to escalate to administrative privileges.
 CVE-2022-24112,9.8,0.71078,Apache APISIX contains an authentication bypass vulnerability that allows for remote code execution.
-CVE-2022-22963,9.8,0.94581,"When using routing functionality in VMware Tanzu's Spring Cloud Function, it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources."
+CVE-2022-22963,9.8,0.94981,"When using routing functionality in VMware Tanzu's Spring Cloud Function, it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources."
 CVE-2022-2294,8.8,0.01319,"WebRTC, an open-source project providing web browsers with real-time communication, contains a heap buffer overflow vulnerability which allows an attacker to perform shellcode execution. This vulnerability impacts web browsers using WebRTC including but not limited to Google Chrome."
 CVE-2021-39226,7.3,0.01183,"Grafana contains an authentication bypass vulnerability that allows authenticated and unauthenticated users to view and delete all snapshot data, potentially resulting in complete snapshot data loss."
 CVE-2021-38406,7.8,0.01036,Delta Electronics DOPSoft 2 lacks proper validation of user-supplied data when parsing specific project files (improper input validation) resulting in an out-of-bounds write that allows for code execution.
