@@ -874,3 +874,6 @@ CVE-2022-21587,9.8,0.27895,Oracle E-Business Suite contains an unspecified vulne
 CVE-2015-2291,7.8,0.02759,Intel ethernet diagnostics driver for Windows IQVW32.sys and IQVW64.sys contain an unspecified vulnerability that allows for a denial-of-service.
 CVE-2022-24990,7.5,0.30745,TerraMaster OS contains a remote command execution vulnerability that allows an unauthenticated user to execute commands on the target endpoint.
 CVE-2022-46169,9.8,0.8409,Cacti contains a command injection vulnerability that allows an unauthenticated user to execute code.
+CVE-2022-47986,,0.3846,"IBM Aspera Faspex could allow a remote attacker to execute code on the system, caused by a YAML deserialization flaw."
+CVE-2022-41223,6.8,0.00885,The Director component in Mitel MiVoice Connect allows an authenticated attacker with internal network access to execute code within the context of the application.
+CVE-2022-40765,6.8,0.00885,The Mitel Edge Gateway component of MiVoice Connect allows an authenticated attacker with internal network access to execute commands within the context of the system.
