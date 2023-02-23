@@ -516,7 +516,7 @@ CVE-2020-25223,9.8,0.92488,A remote code execution vulnerability exists in the W
 CVE-2020-2506,9.8,0.00885,QNAP Helpdesk contains an improper access control vulnerability which could allow an attacker to gain privileges or to read sensitive information.
 CVE-2020-2021,10.0,0.10855,Palo Alto Networks PAN-OS contains a vulnerability in SAML which allows an attacker to bypass authentication.
 CVE-2020-1956,8.8,0.2406,Apache Kylin contains an OS command injection vulnerability which could permit an attacker to perform remote code execution.
-CVE-2020-1631,9.8,0.10855,"A path traversal vulnerability in the HTTP/HTTPS service used by J-Web, Web Authentication, Dynamic-VPN (DVPN), Firewall Authentication Pass-Through with Web-Redirect, and Zero Touch Provisioning (ZTP) allows an unauthenticated attacker to perform remote code execution."
+CVE-2020-1631,9.8,0.02055,"A path traversal vulnerability in the HTTP/HTTPS service used by J-Web, Web Authentication, Dynamic-VPN (DVPN), Firewall Authentication Pass-Through with Web-Redirect, and Zero Touch Provisioning (ZTP) allows an unauthenticated attacker to perform remote code execution."
 CVE-2019-6340,8.1,0.93819,"In Drupal Core, some field types do not properly sanitize data from non-form sources. This can lead to arbitrary PHP code execution in some cases."
 CVE-2019-2616,7.2,0.12108,"Oracle BI Publisher, formerly XML Publisher, contains an unspecified vulnerability which allows for various unauthorized actions. Open-source reporting attributes this vulnerability to allowing for authentication bypass."
 CVE-2019-16920,9.8,0.69867,Multiple D-Link routers contain a command injection vulnerability which can allow attackers to achieve full system compromise.
