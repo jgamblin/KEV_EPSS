@@ -326,9 +326,9 @@ CVE-2017-1000486,9.8,0.71078,Primetek Primefaces is vulnerable to a weak encrypt
 CVE-2019-7609,10.0,0.75393,Kibana contain an arbitrary code execution flaw in the Timelion visualizer.
 CVE-2021-27860,8.8,0.01055,"A vulnerability in the web management interface of FatPipe WARP, IPVPN, and MPVPN software allows a remote, unauthenticated attacker to upload a file to any location on the filesystem."
 CVE-2021-32648,9.1,0.12492,In affected versions of the october/system package an attacker can request an account password reset and then gain access to the account using a specially crafted request.
-CVE-2021-25296,8.8,0.02204,Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.
-CVE-2021-25297,8.8,0.02204,Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.
-CVE-2021-25298,8.8,0.02204,Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.
+CVE-2021-25296,8.8,0.02396,Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.
+CVE-2021-25297,8.8,0.02396,Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.
+CVE-2021-25298,8.8,0.02396,Nagios XI contains a vulnerability which can lead to OS command injection on the Nagios XI server.
 CVE-2021-40870,9.8,0.02509,"Unrestricted upload of a file with a dangerous type is possible, which allows an unauthenticated user to execute arbitrary code via directory traversal."
 CVE-2021-33766,7.5,0.14388,Microsoft Exchange Server contains an information disclosure vulnerability which can allow an unauthenticated attacker to steal email traffic from target.
 CVE-2021-21975,7.5,0.7302,Server Side Request Forgery (SSRF) in vRealize Operations Manager API prior to 8.4 may allow a malicious actor with network access to the vRealize Operations Manager API to perform a SSRF attack to steal administrative credentials.
@@ -870,11 +870,11 @@ CVE-2022-41080,9.8,0.12963,"Microsoft Exchange Server contains an unspecified vu
 CVE-2022-44877,9.8,0.9029,CWP Control Web Panel (formerly CentOS Web Panel) contains an OS command injection vulnerability that allows remote attackers to execute commands via shell metacharacters in the login parameter.
 CVE-2022-47966,9.8,0.96958,"Multiple Zoho ManageEngine products contain an unauthenticated remote code execution vulnerability due to the usage of an outdated third-party dependency, Apache Santuario."
 CVE-2017-11357,9.8,0.27301,Telerik UI for ASP.NET AJAX contains an insecure direct object reference vulnerability in RadAsyncUpload that can result in file uploads in a limited location and/or remote code execution.
-CVE-2022-21587,9.8,0.27895,Oracle E-Business Suite contains an unspecified vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator.
+CVE-2022-21587,9.8,0.85397,Oracle E-Business Suite contains an unspecified vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator.
 CVE-2015-2291,7.8,0.02759,Intel ethernet diagnostics driver for Windows IQVW32.sys and IQVW64.sys contain an unspecified vulnerability that allows for a denial-of-service.
 CVE-2022-24990,7.5,0.30745,TerraMaster OS contains a remote command execution vulnerability that allows an unauthenticated user to execute commands on the target endpoint.
 CVE-2022-46169,9.8,0.8409,Cacti contains a command injection vulnerability that allows an unauthenticated user to execute code.
-CVE-2022-47986,,0.3846,"IBM Aspera Faspex could allow a remote attacker to execute code on the system, caused by a YAML deserialization flaw."
+CVE-2022-47986,9.8,0.3846,"IBM Aspera Faspex could allow a remote attacker to execute code on the system, caused by a YAML deserialization flaw."
 CVE-2022-41223,6.8,0.00885,The Director component in Mitel MiVoice Connect allows an authenticated attacker with internal network access to execute code within the context of the application.
 CVE-2022-40765,6.8,0.00885,The Mitel Edge Gateway component of MiVoice Connect allows an authenticated attacker with internal network access to execute commands within the context of the system.
 CVE-2022-36537,7.5,0.16531,"ZK Framework AuUploader servlets contain an unspecified vulnerability that could allow an attacker to retrieve the content of a file located in the web context. The ZK Framework is an open-source Java framework. This vulnerability can impact multiple products, including but not limited to ConnectWise R1Soft Server Backup Manager."
