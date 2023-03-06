@@ -393,7 +393,7 @@ CVE-2020-11899,5.4,0.01537,The Treck TCP/IP stack contains an IPv6 out-of-bounds
 CVE-2019-16928,9.8,0.10667,Exim contains an out-of-bounds write vulnerability which can allow for remote code execution.
 CVE-2019-1652,7.2,0.4441,"A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands."
 CVE-2019-1297,8.8,0.02217,A remote code execution vulnerability exists in Microsoft Excel when the software fails to properly handle objects in memory.
-CVE-2018-8581,7.4,0.13224,A privilege escalation vulnerability exists in Microsoft Exchange Server. An attacker who successfully exploited this vulnerability could attempt to impersonate any other user of the Exchange server.
+CVE-2018-8581,7.4,0.12126,A privilege escalation vulnerability exists in Microsoft Exchange Server. An attacker who successfully exploited this vulnerability could attempt to impersonate any other user of the Exchange server.
 CVE-2018-8298,7.5,0.77051,The ChakraCore scripting engine contains a type confusion vulnerability which can allow for remote code execution.
 CVE-2018-0180,5.9,0.01055,"A vulnerability in the Login Enhancements (Login Block) feature of Cisco IOS Software could allow an unauthenticated, remote attacker to trigger a reload of an affected system, resulting in a denial of service (DoS) condition."
 CVE-2018-0179,5.9,0.01055,"A vulnerability in the Login Enhancements (Login Block) feature of Cisco IOS Software could allow an unauthenticated, remote attacker to trigger a reload of an affected system, resulting in a denial of service (DoS) condition."
