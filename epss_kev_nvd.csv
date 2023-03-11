@@ -882,3 +882,5 @@ CVE-2022-36537,7.5,0.94064,"ZK Framework AuUploader servlets contain an unspecif
 CVE-2022-28810,6.8,0.94692,Multiple Zoho ManageEngine ADSelfService Plus contains an unspecified vulnerability allowing for remote code execution when performing a password change or reset.
 CVE-2022-33891,8.8,0.9717,Apache Spark contains a command injection vulnerability via Spark User Interface (UI) when Access Control Lists (ACLs) are enabled.
 CVE-2022-35914,9.8,0.96644,"Teclib GLPI contains a remote code execution vulnerability in the third-party library, htmlawed."
+CVE-2021-39144,8.5,0.96321,"XStream contains a remote code execution vulnerability that allows an attacker to manipulate the processed input stream and replace or inject objects, that result in execution of a local command on the server. This vulnerability can affect multiple products including but not limited to VMware Cloud Foundation."
+CVE-2020-5741,7.2,0.19637,Plex Media Server contains a remote code execution vulnerability that allows an attacker with access to the server administrator's Plex account to upload a malicious file via the Camera Upload feature and have the media server execute it.
