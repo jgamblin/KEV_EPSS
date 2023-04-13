@@ -9,9 +9,9 @@ CVE-2018-4939,9.8,0.97251,"Adobe ColdFusion Update 5 and earlier versions, ColdF
 CVE-2018-15961,9.8,0.97441,"Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlier, and Update 14 and earlier have an unrestricted file upload vulnerability. Successful exploitation could lead to arbitrary code execution."
 CVE-2018-4878,9.8,0.97522,A use-after-free vulnerability was discovered in Adobe Flash Player before 28.0.0.161. This vulnerability occurs due to a dangling pointer in the Primetime SDK related to media player handling of listener objects. A successful attack can lead to arbitrary code execution. This was exploited in the wild in January and February 2018.
 CVE-2020-5735,8.8,0.01492,Amcrest cameras and NVR are vulnerable to a stack-based buffer overflow over port 37777. An authenticated remote attacker can abuse this issue to crash the device and possibly execute arbitrary code.
-CVE-2019-2215,7.8,0.00376,
-CVE-2020-0041,7.8,0.00081,
-CVE-2020-0069,7.8,0.00111,
+CVE-2019-2215,7.8,0.00376,"Android Kernel contains a use-after-free vulnerability in binder.c which allows for privilege escalation from an application to the Linux Kernel. This vulnerability was observed chained with CVE-2020-0041 and CVE-2020-0069 under exploit chain ""AbstractEmu."""
+CVE-2020-0041,7.8,0.00081,"Android Kernel binder_transaction of binder.c contains an out-of-bounds write vulnerability due to an incorrect bounds check that could allow for local privilege escalation. This vulnerability was observed chained with CVE-2019-2215 and CVE-2020-0069 under exploit chain ""AbstractEmu."""
+CVE-2020-0069,7.8,0.00111,"Multiple MediaTek chipsets contain an insufficient input validation vulnerability and have missing SELinux restrictions in the Command Queue drivers ioctl handlers. This causes an out-of-bounds write leading to privilege escalation. This vulnerability was observed chained with CVE-2019-2215 and CVE-2020-0041 under exploit chain ""AbstractEmu."""
 CVE-2017-9805,8.1,0.97533,The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x before 2.5.13 contains a vulnerability which can lead to Remote Code Execution.
 CVE-2021-42013,9.8,0.97546,Apache HTTP server vulnerabilities allow an attacker to use a path traversal attack to map URLs to files outside the expected document root and perform Remote Code Execution.
 CVE-2021-41773,7.5,0.97541,"A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration ""require all denied"", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013."
@@ -25,7 +25,7 @@ CVE-2021-30858,8.8,0.00447,Apple iOS and iPadOS Arbitrary Code Execution
 CVE-2019-6223,7.5,0.00678,"A logic issue existed in the handling of Group FaceTime calls. The issue was addressed with improved state management. This issue is fixed in iOS 12.1.4, macOS Mojave 10.14.3 Supplemental Update. The initiator of a Group FaceTime call may be able to cause the recipient to answer."
 CVE-2021-30860,7.8,0.00139,An integer overflow was addressed with improved input validation vulnerability affecting iOS devices that allows for remote code execution.
 CVE-2020-27930,7.8,0.00125,A memory corruption issue was addressed with improved input validation. Processing a maliciously crafted font may lead to arbitrary code execution.
-CVE-2021-30807,7.8,0.00077,
+CVE-2021-30807,7.8,0.00077,"Apple iOS, iPadOS, macOS, and watchOS, contain a memory corruption vulnerability in?IOMobileFrameBuffer?that may allow an application to execute code with kernel privileges."
 CVE-2020-27950,5.5,0.00272,A malicious application may be able to disclose kernel memory.
 CVE-2020-27932,7.8,0.00125,A malicious application may be able to execute arbitrary code with kernel privileges.
 CVE-2020-9818,8.8,0.01655,Processing a maliciously crafted mail message may lead to unexpected memory modification or application termination.
@@ -104,8 +104,8 @@ CVE-2021-37975,8.8,0.50066,Google Chrome use-after-free error within the V8 brow
 CVE-2020-6418,8.8,0.9719,Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-30554,8.8,0.0068,Use after free in WebGL in Google Chrome prior to 91.0.4472.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-21206,8.8,0.00799,Use after free in Blink in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-CVE-2021-38000,6.1,0.00258,
-CVE-2021-38003,8.8,0.01295,
+CVE-2021-38000,6.1,0.00258,Google Chromium Intents contains an improper input validation vulnerability that allows a remote attacker to navigate to a malicious URL via a crafted HTML page.
+CVE-2021-38003,8.8,0.01295,Google Chromium V8 Engine contains a memory corruption vulnerability due to a bug in JSON.stringify.
 CVE-2021-21224,8.8,0.96935,Type confusion in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
 CVE-2021-21193,8.8,0.00465,Use after free in Blink in Google Chrome prior to 89.0.4389.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-21220,8.8,0.97435,Insufficient validation of untrusted input in V8 in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
