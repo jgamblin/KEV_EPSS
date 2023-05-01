@@ -7,7 +7,7 @@ CVE-2021-21017,8.8,0.67524,"Acrobat Reader DC versions versions 2020.013.20074 (
 CVE-2021-28550,8.8,0.74988,"Acrobat Reader DC versions versions 2021.001.20150 (and earlier), 2020.001.30020 (and earlier) and 2017.011.30194 (and earlier) are affected by a Use After Free vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file."
 CVE-2018-4939,9.8,0.97251,"Adobe ColdFusion Update 5 and earlier versions, ColdFusion 11 Update 13 and earlier versions have an exploitable Deserialization of Untrusted Data vulnerability. Successful exploitation could lead to arbitrary code execution."
 CVE-2018-15961,9.8,0.97441,"Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlier, and Update 14 and earlier have an unrestricted file upload vulnerability. Successful exploitation could lead to arbitrary code execution."
-CVE-2018-4878,9.8,0.97503,A use-after-free vulnerability was discovered in Adobe Flash Player before 28.0.0.161. This vulnerability occurs due to a dangling pointer in the Primetime SDK related to media player handling of listener objects. A successful attack can lead to arbitrary code execution. This was exploited in the wild in January and February 2018.
+CVE-2018-4878,9.8,0.9749,A use-after-free vulnerability was discovered in Adobe Flash Player before 28.0.0.161. This vulnerability occurs due to a dangling pointer in the Primetime SDK related to media player handling of listener objects. A successful attack can lead to arbitrary code execution. This was exploited in the wild in January and February 2018.
 CVE-2020-5735,8.8,0.02101,Amcrest cameras and NVR are vulnerable to a stack-based buffer overflow over port 37777. An authenticated remote attacker can abuse this issue to crash the device and possibly execute arbitrary code.
 CVE-2019-2215,7.8,0.00376,"Android Kernel contains a use-after-free vulnerability in binder.c which allows for privilege escalation from an application to the Linux Kernel. This vulnerability was observed chained with CVE-2020-0041 and CVE-2020-0069 under exploit chain ""AbstractEmu."""
 CVE-2020-0041,7.8,0.00081,"Android Kernel binder_transaction of binder.c contains an out-of-bounds write vulnerability due to an incorrect bounds check that could allow for local privilege escalation. This vulnerability was observed chained with CVE-2019-2215 and CVE-2020-0069 under exploit chain ""AbstractEmu."""
@@ -68,7 +68,7 @@ CVE-2019-13608,7.5,0.00625,Citrix StoreFront Server contains a XXE processing vu
 CVE-2020-8193,6.5,0.97456,"Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58.30, 12.1-57.18, 12.0-63.21, 11.1-64.14 and 10.5-70.18 and Citrix SDWAN WAN-OP versions before 11.1.1a, 11.0.3d and 10.2.7 allows unauthenticated access to certain URL endpoints."
 CVE-2020-8195,6.5,0.94896,"Application Delivery Controller (ADC), Gateway, and SDWAN WANOP"
 CVE-2020-8196,4.3,0.00183,"Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58.30, 12.1-57.18, 12.0-63.21, 11.1-64.14 and 10.5-70.18 and Citrix SDWAN WAN-OP versions before 11.1.1a, 11.0.3d and 10.2.7 resulting in limited information disclosure to low privileged users."
-CVE-2019-19781,9.8,0.97526,"Issue in Citrix Application Delivery Controller (ADC) and Gateway 10.5, 11.1, 12.0, 12.1, and 13.0 allowing Directory Traversal."
+CVE-2019-19781,9.8,0.975,"Issue in Citrix Application Delivery Controller (ADC) and Gateway 10.5, 11.1, 12.0, 12.1, and 13.0 allowing Directory Traversal."
 CVE-2019-11634,9.8,0.01672,Citrix Workspace app and Receiver for Windows prior to version 1904 contains an incorrect access control vulnerability which allows for code execution.
 CVE-2020-29557,9.8,0.02083,D-Link DIR-825 R1 devices through 3.0.1 before 2020-11-20 contain a vulnerability in the web interface allowing for remote code execution.
 CVE-2020-25506,9.8,0.97461,"D-Link DNS-320 FW v2.06B01 Revision Ax is affected by command injection in the system_mgr.cgi component, which can lead to remote arbitrary code execution."
@@ -89,18 +89,18 @@ CVE-2019-5591,6.5,0.00234,A Default Configuration vulnerability in FortiOS may a
 CVE-2020-12812,9.8,0.00687,"An improper authentication vulnerability in SSL VPN in FortiOS 6.4.0, 6.2.0 to 6.2.3, 6.0.9 and below may result in a user being able to log in successfully without being prompted for the second factor of authentication (FortiToken) if they changed the case of their username."
 CVE-2018-13379,9.8,0.97505,"An Improper Limitation of a Pathname to a Restricted Directory (""Path Traversal"") in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.3 to 5.6.7 and 5.4.6 to 5.4.12 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to download system files via special crafted HTTP resource requests."
 CVE-2020-16010,8.8,0.00402,Heap buffer overflow in UI in Google Chrome on Android prior to 86.0.4240.185 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.
-CVE-2020-15999,6.5,0.08424,Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+CVE-2020-15999,6.5,0.08862,Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-21166,8.8,0.02687,Data race in audio in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2020-16017,9.6,0.00188,Use after free in site isolation in Google Chrome prior to 86.0.4240.198 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.
-CVE-2021-37976,6.5,0.02947,Information disclosure in Google Chrome that exists due to excessive data output in core.
+CVE-2021-37976,6.5,0.02814,Information disclosure in Google Chrome that exists due to excessive data output in core.
 CVE-2020-16009,8.8,0.8568,Inappropriate implementation in V8 in Google Chrome prior to 86.0.4240.183 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-CVE-2021-30632,8.8,0.87051,Google Chrome out-of-bounds write that allows to execute arbitrary code on the target system.
+CVE-2021-30632,8.8,0.86698,Google Chrome out-of-bounds write that allows to execute arbitrary code on the target system.
 CVE-2020-16013,8.8,0.00359,Inappropriate implementation in V8 in Google Chrome prior to 86.0.4240.198 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-CVE-2021-30633,9.6,0.00239,Google Chrome Use-After-Free vulnerability
+CVE-2021-30633,9.6,0.00233,Google Chrome Use-After-Free vulnerability
 CVE-2021-21148,8.8,0.01399,Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-CVE-2021-37973,9.6,0.00217,"Use-after-free weakness in Portals, Google's new web page navigation system for Chrome. Successful exploitation can let attackers to execute code."
+CVE-2021-37973,9.6,0.00301,"Use-after-free weakness in Portals, Google's new web page navigation system for Chrome. Successful exploitation can let attackers to execute code."
 CVE-2021-30551,8.8,0.33503,Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-CVE-2021-37975,8.8,0.47866,Google Chrome use-after-free error within the V8 browser engine.
+CVE-2021-37975,8.8,0.52228,Google Chrome use-after-free error within the V8 browser engine.
 CVE-2020-6418,8.8,0.97223,Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-30554,8.8,0.0068,Use after free in WebGL in Google Chrome prior to 91.0.4472.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-21206,8.8,0.00799,Use after free in Blink in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -271,7 +271,7 @@ CVE-2020-5847,9.8,0.97272,Unraid through 6.8.0 allows Remote Code Execution.
 CVE-2019-16759,9.8,0.9754,vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig[code] parameter in an ajax/render/widget_php routestring request.
 CVE-2020-17496,9.8,0.97497,vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWidgets data in an ajax/render/widget_tabbedcontainer_tab_panel request. NOTE: this issue exists because of an incomplete fix for CVE-2019-16759.
 CVE-2019-5544,9.8,0.09322,OpenSLP as used in ESXi and the Horizon DaaS appliances have a heap overwrite issue. A malicious actor with network access to port 427 on an ESXi host or on any Horizon DaaS management appliance may be able to overwrite the heap of the OpenSLP service resulting in remote code execution.
-CVE-2020-3992,9.8,0.28354,"OpenSLP as used in VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before ESXi670-202010401-SG, 6.5 before ESXi650-202010401-SG) has a use-after-free issue. A malicious actor residing in the management network who has access to port 427 on an ESXi machine may be able to trigger a use-after-free in the OpenSLP service resulting in remote code execution."
+CVE-2020-3992,9.8,0.28029,"OpenSLP as used in VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before ESXi670-202010401-SG, 6.5 before ESXi650-202010401-SG) has a use-after-free issue. A malicious actor residing in the management network who has access to port 427 on an ESXi machine may be able to trigger a use-after-free in the OpenSLP service resulting in remote code execution."
 CVE-2020-3950,7.8,0.00379,Privilege escalation vulnerability due to improper use of setuid binaries.
 CVE-2021-22005,9.8,0.97429,VMware vCenter Server file upload vulnerability in the VMware-analytics service that allows to execute code on vCenter Server.
 CVE-2020-3952,9.8,0.57246,"Under certain conditions, vmdir that ships with VMware vCenter Server, as part of an embedded or external Platform Services Controller (PSC), does not correctly implement access controls."
@@ -350,7 +350,7 @@ CVE-2017-5689,9.8,0.9746,Intel products contain a vulnerability which can allow 
 CVE-2014-1776,,0.97243,Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code in the context of the current user.
 CVE-2014-6271,9.8,0.9756,"GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code."
 CVE-2014-7169,,0.9739,"GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code. This CVE correctly remediates the vulnerability in CVE-2014-6271."
-CVE-2022-21882,7.8,0.21083,Microsoft Win32k contains an unspecified vulnerability which allows for privilege escalation.
+CVE-2022-21882,7.8,0.1347,Microsoft Win32k contains an unspecified vulnerability which allows for privilege escalation.
 CVE-2021-36934,7.8,0.00105,"If a Volume Shadow Copy (VSS) shadow copy of the system drive is available, users can read the SAM file which would allow any user to escalate privileges to SYSTEM level."
 CVE-2020-0796,10.0,0.97246,A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests. An attacker who successfully exploited the vulnerability could gain the ability to execute code on the target server or client.
 CVE-2018-1000861,9.8,0.97348,A code execution vulnerability exists in the Stapler web framework used by Jenkins
@@ -535,7 +535,7 @@ CVE-2018-1273,9.8,0.97497,Spring Data Commons contains a property binder vulnera
 CVE-2018-11138,9.8,0.94429,The '/common/download_agent_installer.php' script in the Quest KACE System Management Appliance is accessible by anonymous users and can be abused to perform remote code execution.
 CVE-2018-0147,9.8,0.02452,"A vulnerability in Java deserialization used by Cisco Secure Access Control System (ACS) could allow an unauthenticated, remote attacker to execute arbitrary commands on an affected device. The vulnerability is due to insecure deserialization of user-supplied content by the affected software."
 CVE-2018-0125,9.8,0.21413,"A vulnerability in the web interface of the Cisco VPN Routers could allow an unauthenticated, remote attacker to execute arbitrary code as root and gain full control of an affected system."
-CVE-2017-6334,8.8,0.96256,dnslookup.cgi on NETGEAR DGN2200 devices with firmware through 10.0.0.50 allows remote authenticated users to execute arbitrary OS commands
+CVE-2017-6334,8.8,0.95822,dnslookup.cgi on NETGEAR DGN2200 devices with firmware through 10.0.0.50 allows remote authenticated users to execute arbitrary OS commands
 CVE-2017-6316,9.8,0.96168,"A vulnerability has been identified in the management interface of Citrix NetScaler SD-WAN Enterprise and Standard Edition and Citrix CloudBridge Virtual WAN Edition that could result in an unauthenticated, remote attacker being able to execute arbitrary code as a root user. This vulnerability also affects XenMobile Server."
 CVE-2017-3881,9.8,0.97431,"A vulnerability in the Cisco Cluster Management Protocol (CMP) processing code in Cisco IOS and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause a reload of an affected device or remotely execute code with elevated privileges."
 CVE-2017-12617,8.1,0.97502,"When running Apache Tomcat, it is possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server."
@@ -601,7 +601,7 @@ CVE-2012-2034,,0.01494,Adobe Flash Player contains a memory corruption vulnerabi
 CVE-2012-0518,,0.00515,Unspecified vulnerability in the Oracle Application Server Single Sign-On component in Oracle Fusion Middleware allows remote attackers to affect integrity via unknown vectors
 CVE-2011-2005,,0.00057,"afd.sys in the Ancillary Function Driver in Microsoft Windows does not properly validate user-mode input passed to kernel mode, which allows local users to gain privileges via a crafted application."
 CVE-2010-4398,,0.00043,"Stack-based buffer overflow in the RtlQueryRegistryValues function in win32k.sys in Microsoft Windows allows local users to gain privileges, and bypass the User Account Control (UAC) feature."
-CVE-2022-26871,9.8,0.01812,An arbitrary file upload vulnerability in Trend Micro Apex Central could allow for remote code execution.
+CVE-2022-26871,9.8,0.01973,An arbitrary file upload vulnerability in Trend Micro Apex Central could allow for remote code execution.
 CVE-2022-1040,9.8,0.97406,An authentication bypass vulnerability in User Portal and Webadmin of Sophos Firewall allows for remote code execution.
 CVE-2021-34484,7.8,0.00131,Microsoft Windows User Profile Service contains an unspecified vulnerability which allows for privilege escalation.
 CVE-2021-28799,9.8,0.90962,QNAP NAS running HBS 3 contains an improper authorization vulnerability which can allow remote attackers to log in to a device.
@@ -648,7 +648,7 @@ CVE-2019-3568,9.8,0.02466,A buffer overflow vulnerability in WhatsApp VOIP stack
 CVE-2022-22718,7.8,0.01684,Microsoft Windows Print Spooler contains an unspecified vulnerability which allow for privilege escalation.
 CVE-2022-29464,9.8,0.975,"Multiple WSO2 products allow for unrestricted file upload, resulting in remote code execution."
 CVE-2022-26904,7.0,0.00131,Microsoft Windows User Profile Service contains an unspecified vulnerability that allows for privilege escalation.
-CVE-2022-21919,7.0,0.00525,Microsoft Windows User Profile Service contains an unspecified vulnerability that allows for privilege escalation.
+CVE-2022-21919,7.0,0.01236,Microsoft Windows User Profile Service contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2022-0847,7.8,0.07968,"Linux kernel contains an improper initialization vulnerability where an unprivileged local user could escalate their privileges on the system. This vulnerability has the moniker of ""Dirty Pipe."""
 CVE-2021-41357,7.8,0.02604,Microsoft Win32k contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2021-40450,7.8,0.02604,Microsoft Win32k contains an unspecified vulnerability that allows for privilege escalation.
@@ -656,9 +656,9 @@ CVE-2019-1003029,9.9,0.00849,"Jenkins Script Security Plugin contains a protecti
 CVE-2021-1789,8.8,0.00483,"A type confusion issue affecting multiple Apple products allows processing of maliciously crafted web content, leading to arbitrary code execution."
 CVE-2019-8506,8.8,0.04783,"A type confusion issue affecting multiple Apple products allows processing of maliciously crafted web content, leading to arbitrary code execution."
 CVE-2014-4113,,0.02281,Microsoft Win32k contains an unspecified vulnerability that allows for privilege escalation.
-CVE-2014-0322,,0.974,Use-after-free vulnerability in Microsoft Internet Explorer allows remote attackers to execute code.
+CVE-2014-0322,,0.97348,Use-after-free vulnerability in Microsoft Internet Explorer allows remote attackers to execute code.
 CVE-2014-0160,7.5,0.97588,"The TLS and DTLS implementations in OpenSSL do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information."
-CVE-2022-1388,9.8,0.97475,"F5 BIG-IP contains a missing authentication in critical function vulnerability which can allow for remote code execution, creation or deletion of files, or disabling services."
+CVE-2022-1388,9.8,0.97489,"F5 BIG-IP contains a missing authentication in critical function vulnerability which can allow for remote code execution, creation or deletion of files, or disabling services."
 CVE-2022-30525,9.8,0.97543,A command injection vulnerability in the CGI program of some Zyxel firewall versions could allow an attacker to modify specific files and then execute some OS commands on a vulnerable device.
 CVE-2022-22947,10.0,0.97536,"Spring Cloud Gateway applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured."
 CVE-2022-20821,6.5,0.00372,Cisco IOS XR software health check opens TCP port 6379 by default on activation. An attacker can connect to the Redis instance on the open port and allow access to the Redis instance that is running within the NOSi container.
@@ -699,7 +699,7 @@ CVE-2016-3351,3.1,0.14006,An information disclosure vulnerability exists in the 
 CVE-2016-4655,5.5,0.88114,The Apple iOS kernel allows attackers to obtain sensitive information from memory via a crafted application.
 CVE-2016-4656,7.8,0.00439,A memory corruption vulnerability in Apple iOS kernel allows attackers to execute code in a privileged context or cause a denial-of-service via a crafted application.
 CVE-2016-4657,8.8,0.89876,WebKit in Apple iOS contains a memory corruption vulnerability which allows attackers to execute remote code or cause a denial-of-service via a crafted web site.
-CVE-2016-6366,8.8,0.97452,A buffer overflow vulnerability in the Simple Network Management Protocol (SNMP) code of Cisco ASA software could allow an attacker to cause a reload of the affected system or to remotely execute code.
+CVE-2016-6366,8.8,0.9746,A buffer overflow vulnerability in the Simple Network Management Protocol (SNMP) code of Cisco ASA software could allow an attacker to cause a reload of the affected system or to remotely execute code.
 CVE-2016-6367,7.8,0.97507,"A vulnerability in the command-line interface (CLI) parser of Cisco ASA software could allow an authenticated, local attacker to create a denial-of-service condition or potentially execute code."
 CVE-2016-3298,5.3,0.9581,An information disclosure vulnerability exists when the Microsoft Internet Messaging API improperly handles objects in memory. An attacker who successfully exploited this vulnerability could allow the attacker to test for the presence of files on disk.
 CVE-2019-3010,8.8,0.00394,Oracle Solaris component: XScreenSaver contains an unspecified vulnerability which allows for privilege escalation.
@@ -801,7 +801,7 @@ CVE-2022-26923,8.8,0.00458,"An authenticated user could manipulate attributes on
 CVE-2022-21971,7.8,0.75631,Microsoft Windows Runtime contains an unspecified vulnerability which allows for remote code execution.
 CVE-2017-15944,9.8,0.97439,"Palo Alto Networks PAN-OS contains multiple, unspecified vulnerabilities which can allow for remote code execution when chained."
 CVE-2022-0028,8.6,0.00179,A Palo Alto Networks PAN-OS URL filtering policy misconfiguration could allow a network-based attacker to conduct reflected and amplified TCP denial-of-service (RDoS) attacks.
-CVE-2022-26352,9.8,0.9749,"dotCMS ContentResource API contains an unrestricted upload of file with a dangerous type vulnerability that allows for directory traversal, in which the file is saved outside of the intended storage location. Exploitation allows for remote code execution."
+CVE-2022-26352,9.8,0.97481,"dotCMS ContentResource API contains an unrestricted upload of file with a dangerous type vulnerability that allows for directory traversal, in which the file is saved outside of the intended storage location. Exploitation allows for remote code execution."
 CVE-2022-24706,9.8,0.97183,Apache CouchDB contains an insecure default initialization of resource vulnerability which can allow an attacker to escalate to administrative privileges.
 CVE-2022-24112,9.8,0.97146,Apache APISIX contains an authentication bypass vulnerability that allows for remote code execution.
 CVE-2022-22963,9.8,0.97501,"When using routing functionality in VMware Tanzu's Spring Cloud Function, it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources."
@@ -830,7 +830,7 @@ CVE-2013-6282,,0.00211,The get_user and put_user API functions of the Linux kern
 CVE-2013-2597,,0.00157,The Code Aurora audio calibration database (acdb) audio driver contains a stack-based buffer overflow vulnerability which allows for privilege escalation. Code Aurora is used in third-party products such as Qualcomm and Android.
 CVE-2013-2596,,0.00204,Linux kernel fb_mmap function in drivers/video/fbmem.c contains an integer overflow vulnerability which allows for privilege escalation.
 CVE-2013-2094,,0.00079,"Linux kernel fails to check all 64 bits of attr.config passed by user space, resulting to out-of-bounds access of the perf_swevent_enabled array in sw_perf_event_destroy(). Explotation allows for privilege escalation."
-CVE-2010-2568,,0.97232,Microsoft Windows incorrectly parses shortcuts in such a way that malicious code may be executed when the operating system displays the icon of a malicious shortcut file. An attacker who successfully exploited this vulnerability could execute code as the logged-on user.
+CVE-2010-2568,,0.97285,Microsoft Windows incorrectly parses shortcuts in such a way that malicious code may be executed when the operating system displays the icon of a malicious shortcut file. An attacker who successfully exploited this vulnerability could execute code as the logged-on user.
 CVE-2022-35405,9.8,0.97399,"Zoho ManageEngine PAM360, Password Manager Pro, and Access Manager Plus contain an unspecified vulnerability which allows for remote code execution."
 CVE-2022-3236,9.8,0.11479,A code injection vulnerability in the User Portal and Webadmin of Sophos Firewall allows for remote code execution.
 CVE-2022-41082,8.8,0.96991,"Microsoft Exchange Server contains an unspecified vulnerability which allows for authenticated remote code execution. Dubbed ""ProxyNotShell,"" this vulnerability is chainable with CVE-2022-41040 which allows for the remote code execution."
@@ -839,7 +839,7 @@ CVE-2022-36804,8.8,0.97315,"Multiple API endpoints of Atlassian Bitbucket Server
 CVE-2022-40684,9.8,0.96347,"Fortinet FortiOS, FortiProxy, and FortiSwitchManager contain an authentication bypass vulnerability that could allow an unauthenticated attacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests."
 CVE-2022-41033,7.8,0.00219,Microsoft Windows COM+ Event System Service contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2022-41352,9.8,0.97009,Zimbra Collaboration (ZCS) allows an attacker to upload arbitrary files using cpio package to gain incorrect access to any other user accounts.
-CVE-2021-3493,7.8,0.00365,"The overlayfs stacking file system in Linux kernel does not properly validate the application of file capabilities against user namespaces, which could lead to privilege escalation."
+CVE-2021-3493,7.8,0.00306,"The overlayfs stacking file system in Linux kernel does not properly validate the application of file capabilities against user namespaces, which could lead to privilege escalation."
 CVE-2020-3433,7.8,0.00077,Cisco AnyConnect Secure Mobility Client for Windows interprocess communication (IPC) channel allows for insufficient validation of resources that are loaded by the application at run time. An attacker with valid credentials on Windows could execute code on the affected machine with SYSTEM privileges.
 CVE-2020-3153,6.5,0.00083,"Cisco AnyConnect Secure Mobility Client for Windows allows for incorrect handling of directory paths. An attacker with valid credentials on Windows would be able to copy malicious files to arbitrary locations with system level privileges. This could include DLL pre-loading, DLL hijacking, and other related attacks."
 CVE-2018-19323,9.8,0.30146,"The GPCIDrv and GDrv low-level drivers in GIGABYTE App Center, AORUS Graphics Engine, XTREME Gaming Engine, and OC GURU expose functionality to read and write arbitrary physical memory. This could be leveraged by a local attacker to elevate privileges."
