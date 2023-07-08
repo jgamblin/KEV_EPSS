@@ -922,3 +922,4 @@ CVE-2021-25394,6.4,0.00078,Samsung mobile devices contain a race condition vulne
 CVE-2021-25395,6.4,0.00245,Samsung mobile devices contain a race condition vulnerability within the MFC charger driver that leads to a use-after-free allowing for a write given a radio privilege is compromised.
 CVE-2021-25371,6.7,0.00078,Samsung mobile devices contain an unspecified vulnerability within DSP driver that allows attackers to load ELF libraries inside DSP.
 CVE-2021-25372,6.7,0.00078,Samsung mobile devices contain an improper boundary check vulnerability within DSP driver that allows for out-of-bounds memory access.
+CVE-2021-29256,8.8,0.00078,Arm Mali GPU Kernel Driver contains a use-after-free vulnerability that may allow a non-privileged user to gain root privilege and/or disclose information.
