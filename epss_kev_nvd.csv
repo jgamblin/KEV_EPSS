@@ -152,7 +152,7 @@ CVE-2017-0143,8.1,0.97307,Microsoft Windows Server Message Block 1.0 (SMBv1) con
 CVE-2016-7255,7.8,0.01175,Microsoft Win32k kernel-mode driver fails to properly handle objects in memory which allows for privilege escalation. Successful exploitation allows an attacker to run code in kernel mode.
 CVE-2019-0708,9.8,0.97543,"Microsoft Remote Desktop Services, formerly known as Terminal Service, contains an unspecified vulnerability which allows an unauthenticated attacker to connect to the target system using RDP and send specially crafted requests. Successful exploitation allows for remote code execution. The vulnerability is also known under the moniker of BlueKeep."
 CVE-2021-34473,9.8,0.97442,Microsoft Exchange Server contains an unspecified vulnerability that allows for remote code execution.
-CVE-2020-1464,5.5,0.0835,"Microsoft Windows contains a spoofing vulnerability when Windows incorrectly validates file signatures, allowing an attacker to bypass security features and load improperly signed files."
+CVE-2020-1464,5.5,0.13025,"Microsoft Windows contains a spoofing vulnerability when Windows incorrectly validates file signatures, allowing an attacker to bypass security features and load improperly signed files."
 CVE-2021-1732,7.8,0.00725,Microsoft Win32k contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2021-34527,8.8,0.96775,Microsoft Windows Print Spooler contains an unspecified vulnerability due to the Windows Print Spooler service improperly performing privileged file operations. Successful exploitation allows an attacker to perform remote code execution with SYSTEM privileges. The vulnerability is also known under the moniker of PrintNightmare.
 CVE-2021-31207,7.2,0.97158,Microsoft Exchange Server contains an unspecified vulnerability that allows for security feature bypass.
@@ -179,7 +179,7 @@ CVE-2020-0674,7.5,0.97415,Microsoft Internet Explorer contains a memory corrupti
 CVE-2021-27059,6.8,0.0248,Microsoft Office contains an unspecified vulnerability that allows for remote code execution.
 CVE-2019-1367,7.5,0.89012,Microsoft Internet Explorer contains a memory corruption vulnerability in how the scripting engine handles objects in memory. Successful exploitation allows for remote code execution in the context of the current user.
 CVE-2017-0199,7.8,0.97439,Microsoft Office and WordPad contain an unspecified vulnerability due to the way the applications parse specially crafted files. Successful exploitation allows for remote code execution.
-CVE-2020-1380,7.5,0.27169,Microsoft Internet Explorer contains a memory corruption vulnerability which can allow for remote code execution in the context of the current user.
+CVE-2020-1380,7.5,0.22697,Microsoft Internet Explorer contains a memory corruption vulnerability which can allow for remote code execution in the context of the current user.
 CVE-2019-1429,7.5,0.97248,Microsoft Internet Explorer contains a memory corruption vulnerability which can allow for remote code execution in the context of the current user.
 CVE-2017-11774,7.8,0.8826,Microsoft Office Outlook contains a security feature bypass vulnerability due to improperly handling objects in memory. Successful exploitation allows an attacker to execute commands.
 CVE-2020-0968,7.5,0.06792,"Microsoft Internet Explorer contains a memory corruption vulnerability due to how the Scripting Engine handles objects in memory, leading to remote code execution."
@@ -231,7 +231,7 @@ CVE-2021-35395,9.8,0.86621,Realtek AP-Router SDK HTTP web server ?boa? contains 
 CVE-2017-16651,7.8,0.00416,"Roundcube Webmail contains a file disclosure vulnerability caused by insufficient input validation in conjunction with file-based attachment plugins, which are used by default."
 CVE-2020-11652,6.5,0.97353,SaltStack Salt contains a path traversal vulnerability in the salt-master process ClearFuncs which allows directory access to authenticated users. Salt users who follow fundamental internet security guidelines and best practices are not affected by this vulnerability.
 CVE-2020-11651,9.8,0.97506,"SaltStack Salt contains an authentication bypass vulnerability in the salt-master process ClearFuncs due to improperly validating method calls. The vulnerability allows a remote user to access some methods without authentication, which can be used to retrieve user tokens from the salt master and/or run commands on salt minions. Salt users who follow fundamental internet security guidelines and best practices are not affected by this vulnerability."
-CVE-2020-16846,9.8,0.97531,SaltStack Salt allows an unauthenticated user with network access to the Salt API to use shell injections to run code on the Salt API using the SSH client. This vulnerability affects any users running the Salt API.
+CVE-2020-16846,9.8,0.97541,SaltStack Salt allows an unauthenticated user with network access to the Salt API to use shell injections to run code on the Salt API using the SSH client. This vulnerability affects any users running the Salt API.
 CVE-2018-2380,6.6,0.03382,SAP Customer Relationship Management (CRM) contains a path traversal vulnerability that allows an attacker to exploit insufficient validation of path information provided by users.
 CVE-2010-5326,10.0,0.13576,"SAP NetWeaver Application Server Java Platforms Invoker Servlet does not require authentication, allowing for remote code execution via a HTTP or HTTPS request."
 CVE-2016-9563,6.5,0.94018,"SAP NetWeaver Application Server Java Platforms contains an unspecified vulnerability in BC-BMT-BPM-DSK which allows remote, authenticated users to conduct XML External Entity (XXE) attacks."
@@ -239,7 +239,7 @@ CVE-2020-6287,10.0,0.97519,SAP NetWeaver Application Server Java Platforms conta
 CVE-2020-6207,9.8,0.97442,SAP Solution Manager User Experience Monitoring contains a missing authentication for critical function vulnerability which results in complete compromise of all SMDAgents connected to the Solution Manager.
 CVE-2016-3976,7.5,0.97431,SAP NetWeaver Application Server Java Platforms contains a directory traversal vulnerability via a ..\ (dot dot backslash) in the fileName parameter to CrashFileDownloadServlet. This allows remote attackers to read files.
 CVE-2019-16256,9.8,0.01341,SIMalliance Toolbox Browser contains an command injection vulnerability that could allow remote attackers to retrieve location and IMEI information or execute a range of other attacks by modifying the attack message.
-CVE-2020-10148,9.8,0.97372,SolarWinds Orion API contains an authentication bypass vulnerability that could allow a remote attacker to execute API commands.
+CVE-2020-10148,9.8,0.97377,SolarWinds Orion API contains an authentication bypass vulnerability that could allow a remote attacker to execute API commands.
 CVE-2021-35211,10.0,0.94619,SolarWinds Serv-U contains an unspecified memory escape vulnerability which can allow for remote code execution.
 CVE-2016-3643,7.8,0.00123,SolarWinds Virtualization Manager allows for privilege escalation through leveraging a misconfiguration of sudo.
 CVE-2020-10199,8.8,0.973,Sonatype Nexus Repository contains an unspecified vulnerability which allows for remote code execution.
@@ -283,7 +283,7 @@ CVE-2020-11738,7.5,0.97302,WordPress Snap Creek Duplicator plugin contains a fil
 CVE-2019-9978,6.1,0.97293,WordPress Social Warfare plugin contains a cross-site scripting (XSS) vulnerability that allows for remote code execution. This vulnerability affects Social Warfare and Social Warfare Pro.
 CVE-2021-27561,9.8,0.97477,Yealink Device Management contains a server-side request forgery (SSRF) vulnerability that allows for unauthenticated remote code execution.
 CVE-2021-40539,9.8,0.97465,Zoho ManageEngine ADSelfService Plus contains an authentication bypass vulnerability affecting the REST API URLs which allow for remote code execution.
-CVE-2020-10189,9.8,0.97091,Zoho ManageEngine Desktop Central contains a file upload vulnerability that allows for unauthenticated remote code execution.
+CVE-2020-10189,9.8,0.97074,Zoho ManageEngine Desktop Central contains a file upload vulnerability that allows for unauthenticated remote code execution.
 CVE-2019-8394,6.5,0.96936,Zoho ManageEngine ServiceDesk Plus (SDP) contains an unspecified vulnerability that allows remote users to upload files via login page customization.
 CVE-2020-29583,9.8,0.95315,"Zyxel firewalls (ATP, USG, VM) and AP Controllers (NXC2500 and NXC5500) contain a use of hard-coded credentials vulnerability in an undocumented account (""zyfwp"") with an unchangeable password."
 CVE-2021-22204,7.8,0.91124,Improper neutralization of user data in the DjVu file format in Exiftool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
@@ -344,7 +344,7 @@ CVE-2018-8453,7.8,0.95102,Microsoft Windows Win32k contains a vulnerability whic
 CVE-2021-35247,5.3,0.00361,SolarWinds Serv-U versions 15.2.5 and earlier contain an improper input validation vulnerability which allows attackers to build and send queries without sanitization.
 CVE-2022-22587,9.8,0.00182,Apple IOMobileFrameBuffer contains a memory corruption vulnerability which can allow a malicious application to execute arbitrary code with kernel privileges.
 CVE-2021-20038,9.8,0.95255,SonicWall SMA 100 devies are vulnerable to an unauthenticated stack-based buffer overflow vulnerability where exploitation can result in code execution.
-CVE-2020-5722,9.8,0.97478,Grandstream UCM6200 series is vulnerable to an unauthenticated remote SQL injection via crafted HTTP request. Exploitation can allow for code execution as root.
+CVE-2020-5722,9.8,0.97481,Grandstream UCM6200 series is vulnerable to an unauthenticated remote SQL injection via crafted HTTP request. Exploitation can allow for code execution as root.
 CVE-2020-0787,7.8,0.00146,Microsoft Windows BITS is vulnerable to to a privilege elevation vulnerability if it improperly handles symbolic links. An actor can exploit this vulnerability to execute arbitrary code with system-level privileges.
 CVE-2017-5689,9.8,0.97453,Intel products contain a vulnerability which can allow attackers to perform privilege escalation.
 CVE-2014-1776,,0.97312,Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code in the context of the current user.
@@ -368,7 +368,7 @@ CVE-2015-1130,,0.00047,The XPC implementation in Admin Framework in Apple OS X b
 CVE-2014-4404,,0.0051,"Heap-based buffer overflow in IOHIDFamily in Apple OS X, which affects, iOS before 8 and Apple TV before 7, allows attackers to execute arbitrary code in a privileged context."
 CVE-2022-22620,8.8,0.00183,"Apple Webkit, which impacts iOS, iPadOS, and macOS, contains a vulnerability which allows for remote code execution."
 CVE-2022-24086,9.8,0.24634,Adobe Commerce and Magento Open Source contain an improper input validation vulnerability which can allow for arbitrary code execution.
-CVE-2022-0609,8.8,0.00582,The vulnerability exists due to a use-after-free error within the Animation component in Google Chrome.
+CVE-2022-0609,8.8,0.00824,The vulnerability exists due to a use-after-free error within the Animation component in Google Chrome.
 CVE-2019-0752,7.5,0.96203,A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer
 CVE-2018-8174,7.5,0.9742,"A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka ""Windows VBScript Engine Remote Code Execution"""
 CVE-2018-20250,7.8,0.97453,WinRAR Absolute Path Traversal vulnerability leads to Remote Code Execution
@@ -505,7 +505,7 @@ CVE-2016-3309,7.8,0.00062,A privilege escalation vulnerability exists when the W
 CVE-2015-2546,,0.00091,The kernel-mode driver in Microsoft Windows OS and Server allows local users to gain privileges via a crafted application.
 CVE-2022-26318,9.8,0.12619,"On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute arbitrary code."
 CVE-2022-26143,9.8,0.02505,"A vulnerability has been identified in MiCollab and MiVoice Business Express that may allow a malicious actor to gain unauthorized access to sensitive information and services, cause performance degradations or a denial of service condition on the affected system."
-CVE-2022-21999,7.8,0.00645,Microsoft Windows Print Spooler contains an unspecified vulnerability which can allow for privilege escalation.
+CVE-2022-21999,7.8,0.00464,Microsoft Windows Print Spooler contains an unspecified vulnerability which can allow for privilege escalation.
 CVE-2021-42237,9.8,0.9755,Sitcore XP contains an insecure deserialization vulnerability which can allow for remote code execution.
 CVE-2021-22941,9.8,0.0331,Improper Access Control in Citrix ShareFile storage zones controller may allow an unauthenticated attacker to remotely compromise the storage zones controller.
 CVE-2020-9377,8.8,0.97072,D-Link DIR-610 devices allow remote code execution via the cmd parameter to command.php.
@@ -564,7 +564,7 @@ CVE-2012-1823,,0.97494,"sapi/cgi/cgi_main.c in PHP, when configured as a CGI scr
 CVE-2010-4345,,0.00121,Exim allows local users to gain privileges by leveraging the ability of the exim user account to specify an alternate configuration file with a directive that contains arbitrary commands.
 CVE-2010-4344,,0.93069,Heap-based buffer overflow in the string_vformat function in string.c in Exim before 4.70 allows remote attackers to execute arbitrary code via an SMTP session.
 CVE-2010-3035,,0.02424,"Cisco IOS XR, when BGP is the configured routing feature, allows remote attackers to cause a denial-of-service."
-CVE-2010-2861,,0.97308,A directory traversal vulnerability exists in the administrator console in Adobe ColdFusion which allows remote attackers to read arbitrary files.
+CVE-2010-2861,,0.97295,A directory traversal vulnerability exists in the administrator console in Adobe ColdFusion which allows remote attackers to read arbitrary files.
 CVE-2009-2055,,0.00955,"Cisco IOS XR,when BGP is the configured routing feature, allows remote attackers to cause a denial-of-service."
 CVE-2009-1151,,0.79256,Setup script used to generate configuration can be fooled using a crafted POST request to include arbitrary PHP code in generated configuration file.
 CVE-2009-0927,,0.97446,Stack-based buffer overflow in Adobe Reader and Adobe Acrobat allows remote attackers to execute arbitrary code.
@@ -793,12 +793,12 @@ CVE-2022-34713,7.8,0.96441,A remote code execution vulnerability exists when Mic
 CVE-2022-30333,7.5,0.84356,"RARLAB UnRAR on Linux and UNIX contains a directory traversal vulnerability, allowing an attacker to write to files during an extract (unpack) operation."
 CVE-2022-27925,7.2,0.96838,"Zimbra Collaboration (ZCS) contains flaw in the mboximport functionality, allowing an authenticated attacker to upload arbitrary files to perform remote code execution. This vulnerability was chained with CVE-2022-37042 which allows for unauthenticated remote code execution."
 CVE-2022-37042,9.8,0.97343,Zimbra Collaboration (ZCS) contains an authentication bypass vulnerability in MailboxImportServlet. This vulnerability was chained with CVE-2022-27925 which allows for unauthenticated remote code execution.
-CVE-2022-22536,10.0,0.96468,"SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server and SAP Web Dispatcher allow HTTP request smuggling. An unauthenticated attacker can prepend a victim's request with arbitrary data, allowing for function execution impersonating the victim or poisoning intermediary Web caches."
+CVE-2022-22536,10.0,0.96734,"SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server and SAP Web Dispatcher allow HTTP request smuggling. An unauthenticated attacker can prepend a victim's request with arbitrary data, allowing for function execution impersonating the victim or poisoning intermediary Web caches."
 CVE-2022-32894,7.8,0.00077,Apple iOS and macOS contain an out-of-bounds write vulnerability that could allow an application to execute code with kernel privileges.
 CVE-2022-32893,8.8,0.00154,Apple iOS and macOS contain an out-of-bounds write vulnerability that could allow for remote code execution when processing malicious crafted web content.
 CVE-2022-2856,6.5,0.00164,"Google Chrome Intents allows for insufficient validation of untrusted input, causing unknown impacts. CISA will update this description if more information becomes available."
 CVE-2022-26923,8.8,0.00841,"An authenticated user could manipulate attributes on computer accounts they own or manage, and acquire a certificate from Active Directory Certificate Services that would allow for privilege escalation to SYSTEM."
-CVE-2022-21971,7.8,0.5944,Microsoft Windows Runtime contains an unspecified vulnerability which allows for remote code execution.
+CVE-2022-21971,7.8,0.5829,Microsoft Windows Runtime contains an unspecified vulnerability which allows for remote code execution.
 CVE-2017-15944,9.8,0.97414,"Palo Alto Networks PAN-OS contains multiple, unspecified vulnerabilities which can allow for remote code execution when chained."
 CVE-2022-0028,8.6,0.00179,A Palo Alto Networks PAN-OS URL filtering policy misconfiguration could allow a network-based attacker to conduct reflected and amplified TCP denial-of-service (RDoS) attacks.
 CVE-2022-26352,9.8,0.97446,"dotCMS ContentResource API contains an unrestricted upload of file with a dangerous type vulnerability that allows for directory traversal, in which the file is saved outside of the intended storage location. Exploitation allows for remote code execution."
@@ -823,7 +823,7 @@ CVE-2018-13374,8.8,0.00604,Fortinet FortiOS and FortiADC contain an improper acc
 CVE-2017-5521,8.1,0.97402,Multiple NETGEAR devices are prone to admin password disclosure via simple crafted requests to the web management server.
 CVE-2011-4723,,0.00299,"The D-Link DIR-300 router stores cleartext passwords, which allows context-dependent attackers to obtain sensitive information."
 CVE-2011-1823,,0.00073,"The vold volume manager daemon in Android kernel trusts messages from a PF_NETLINK socket, which allows an attacker to execute code and gain root privileges. This vulnerability is associated with GingerBreak and Exploit.AndroidOS.Lotoor."
-CVE-2022-37969,7.8,0.00209,Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability which allows for privilege escalation.
+CVE-2022-37969,7.8,0.00253,Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability which allows for privilege escalation.
 CVE-2022-32917,7.8,0.00059,"Apple kernel, which is included in iOS, iPadOS, and macOS, contains an unspecified vulnerability where an application may be able to execute code with kernel privileges."
 CVE-2022-40139,7.2,0.00925,Trend Micro Apex One and Apex One as a Service contain an improper validation of rollback mechanism components that could lead to remote code execution.
 CVE-2013-6282,,0.00211,The get_user and put_user API functions of the Linux kernel fail to validate the target address when being used on ARM v6k/v7 platforms. This allows an application to read and write kernel memory which could lead to privilege escalation.
@@ -838,7 +838,7 @@ CVE-2022-41040,8.8,0.95972,"Microsoft Exchange Server allows for server-side req
 CVE-2022-36804,8.8,0.97274,"Multiple API endpoints of Atlassian Bitbucket Server and Data Center contain a command injection vulnerability where an attacker with access to a public Bitbucket repository, or with read permissions to a private one, can execute code by sending a malicious HTTP request."
 CVE-2022-40684,9.8,0.96706,"Fortinet FortiOS, FortiProxy, and FortiSwitchManager contain an authentication bypass vulnerability that could allow an unauthenticated attacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests."
 CVE-2022-41033,7.8,0.00043,Microsoft Windows COM+ Event System Service contains an unspecified vulnerability that allows for privilege escalation.
-CVE-2022-41352,9.8,0.9675,Zimbra Collaboration (ZCS) allows an attacker to upload arbitrary files using cpio package to gain incorrect access to any other user accounts.
+CVE-2022-41352,9.8,0.96763,Zimbra Collaboration (ZCS) allows an attacker to upload arbitrary files using cpio package to gain incorrect access to any other user accounts.
 CVE-2021-3493,7.8,0.00411,"The overlayfs stacking file system in Linux kernel does not properly validate the application of file capabilities against user namespaces, which could lead to privilege escalation."
 CVE-2020-3433,7.8,0.00077,Cisco AnyConnect Secure Mobility Client for Windows interprocess communication (IPC) channel allows for insufficient validation of resources that are loaded by the application at run time. An attacker with valid credentials on Windows could execute code on the affected machine with SYSTEM privileges.
 CVE-2020-3153,6.5,0.00083,"Cisco AnyConnect Secure Mobility Client for Windows allows for incorrect handling of directory paths. An attacker with valid credentials on Windows would be able to copy malicious files to arbitrary locations with system level privileges. This could include DLL pre-loading, DLL hijacking, and other related attacks."
@@ -865,7 +865,7 @@ CVE-2022-27518,9.8,0.04723,"Citrix Application Delivery Controller (ADC) and Gat
 CVE-2022-26500,8.8,0.05911,The Veeam Distribution Service in the Backup & Replication application allows unauthenticated users to access internal API functions. A remote attacker can send input to the internal API which may lead to uploading and executing of malicious code.
 CVE-2022-26501,9.8,0.04868,The Veeam Distribution Service in the Backup & Replication application allows unauthenticated users to access internal API functions. A remote attacker can send input to the internal API which may lead to uploading and executing of malicious code.
 CVE-2022-42856,8.8,0.00178,Apple iOS contains a type confusion vulnerability when processing maliciously crafted web content leading to code execution.
-CVE-2018-5430,8.8,0.18473,"TIBCO JasperReports Server contain a vulnerability which may allow any authenticated user read-only access to the contents of the web application, including key configuration files."
+CVE-2018-5430,8.8,0.23346,"TIBCO JasperReports Server contain a vulnerability which may allow any authenticated user read-only access to the contents of the web application, including key configuration files."
 CVE-2018-18809,6.5,0.01673,TIBCO JasperReports Library contains a directory-traversal vulnerability that may allow web server users to access contents of the host system.
 CVE-2022-41080,8.8,0.00994,"Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation. This vulnerability is chainable with CVE-2022-41082, which allows for remote code execution."
 CVE-2022-44877,9.8,0.97455,CWP Control Web Panel (formerly CentOS Web Panel) contains an OS command injection vulnerability that allows remote attackers to execute commands via shell metacharacters in the login parameter.
@@ -911,8 +911,8 @@ CVE-2004-1464,,0.01795,"Cisco IOS contains an unspecified vulnerability that may
 CVE-2016-6415,7.5,0.97372,"Cisco IOS, IOS XR, and IOS XE contain insufficient condition checks in the part of the code that handles Internet Key Exchange version 1 (IKEv1) security negotiation requests. contains an information disclosure vulnerability in the Internet Key Exchange version 1 (IKEv1) that could allow an attacker to retrieve memory contents. Successful exploitation could allow the attacker to retrieve memory contents, which can lead to information disclosure."
 CVE-2020-35730,6.1,0.03518,Roundcube Webmail contains a cross-site scripting (XSS) vulnerability that allows an attacker to send a plain text e-mail message with Javascript in a link reference element that is mishandled by linkref_addinindex in rcube_string_replacer.php.
 CVE-2020-12641,9.8,0.0868,Roundcube Webmail contains an remote code execution vulnerability that allows attackers to execute code via shell metacharacters in a configuration setting for im_convert_path or im_identify_path.
-CVE-2021-44026,9.8,0.0993,Roundcube Webmail is vulnerable to SQL injection via search or search_params.
-CVE-2016-9079,7.5,0.96607,"Mozilla Firefox, Firefox ESR, and Thunderbird contain a use-after-free vulnerability in SVG Animation, targeting Firefox and Tor browser users on Windows."
+CVE-2021-44026,9.8,0.08305,Roundcube Webmail is vulnerable to SQL injection via search or search_params.
+CVE-2016-9079,7.5,0.96631,"Mozilla Firefox, Firefox ESR, and Thunderbird contain a use-after-free vulnerability in SVG Animation, targeting Firefox and Tor browser users on Windows."
 CVE-2016-0165,7.8,0.00833,Microsoft Win32k contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2019-17621,9.8,0.9751,"D-Link DIR-859 router contains a command execution vulnerability in the UPnP endpoint URL, /gena.cgi. Exploitation allows an unauthenticated remote attacker to execute system commands as root by sending a specially crafted HTTP SUBSCRIBE request to the UPnP service when connecting to the local network."
 CVE-2019-20500,7.8,0.01077,"D-Link DWL-2600AP access point contains an authenticated command injection vulnerability via the Save Configuration functionality in the Web interface, using shell metacharacters in the admin.cgi?action=config_save configBackup or downloadServerip parameter."
