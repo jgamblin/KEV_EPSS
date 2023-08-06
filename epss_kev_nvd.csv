@@ -114,7 +114,7 @@ CVE-2020-4430,4.3,0.95802,IBM Data Risk Manager contains a directory traversal v
 CVE-2020-4427,9.8,0.00998,"IBM Data Risk Manager contains a security bypass vulnerability that could allow a remote attacker to bypass security restrictions when configured with SAML authentication. By sending a specially crafted HTTP request, an attacker could exploit this vulnerability to bypass the authentication process and gain full administrative access to the system."
 CVE-2020-4428,9.1,0.00401,"IBM Data Risk Manager contains an unspecified vulnerability which could allow a remote, authenticated attacker to execute commands on the system.?"
 CVE-2019-4716,9.8,0.04362,"IBM Planning Analytics is vulnerable to a configuration overwrite that allows an unauthenticated user to login as ""admin"", and then execute code as root or SYSTEM via TM1 scripting."
-CVE-2016-3715,5.5,0.97104,"ImageMagick contains an unspecified vulnerability that could allow users to delete files by using ImageMagick's 'ephemeral' pseudo protocol, which deletes files after reading."
+CVE-2016-3715,5.5,0.97127,"ImageMagick contains an unspecified vulnerability that could allow users to delete files by using ImageMagick's 'ephemeral' pseudo protocol, which deletes files after reading."
 CVE-2016-3718,6.3,0.93333,ImageMagick contains an unspecified vulnerability which allows attackers to perform server-side request forgery (SSRF) via a crafted image.
 CVE-2020-15505,9.8,0.97504,"Ivanti MobileIron's Core & Connector, Sentry, and Monitor and Reporting Database (RDB) products contain an unspecified vulnerability which allows for remote code execution."
 CVE-2021-30116,9.8,0.92852,Kaseya Virtual System/Server Administrator (VSA) contains an information disclosure vulnerability allowing an attacker to obtain the sessionId that can be used to execute further attacks against the system.
@@ -179,7 +179,7 @@ CVE-2020-0674,7.5,0.97465,Microsoft Internet Explorer contains a memory corrupti
 CVE-2021-27059,6.8,0.02636,Microsoft Office contains an unspecified vulnerability that allows for remote code execution.
 CVE-2019-1367,7.5,0.89012,Microsoft Internet Explorer contains a memory corruption vulnerability in how the scripting engine handles objects in memory. Successful exploitation allows for remote code execution in the context of the current user.
 CVE-2017-0199,7.8,0.97422,Microsoft Office and WordPad contain an unspecified vulnerability due to the way the applications parse specially crafted files. Successful exploitation allows for remote code execution.
-CVE-2020-1380,7.5,0.22697,Microsoft Internet Explorer contains a memory corruption vulnerability which can allow for remote code execution in the context of the current user.
+CVE-2020-1380,7.5,0.22473,Microsoft Internet Explorer contains a memory corruption vulnerability which can allow for remote code execution in the context of the current user.
 CVE-2019-1429,7.5,0.97209,Microsoft Internet Explorer contains a memory corruption vulnerability which can allow for remote code execution in the context of the current user.
 CVE-2017-11774,7.8,0.85205,Microsoft Office Outlook contains a security feature bypass vulnerability due to improperly handling objects in memory. Successful exploitation allows an attacker to execute commands.
 CVE-2020-0968,7.5,0.05577,"Microsoft Internet Explorer contains a memory corruption vulnerability due to how the Scripting Engine handles objects in memory, leading to remote code execution."
@@ -346,7 +346,7 @@ CVE-2022-22587,9.8,0.00182,Apple IOMobileFrameBuffer contains a memory corruptio
 CVE-2021-20038,9.8,0.95993,SonicWall SMA 100 devies are vulnerable to an unauthenticated stack-based buffer overflow vulnerability where exploitation can result in code execution.
 CVE-2020-5722,9.8,0.97497,Grandstream UCM6200 series is vulnerable to an unauthenticated remote SQL injection via crafted HTTP request. Exploitation can allow for code execution as root.
 CVE-2020-0787,7.8,0.00151,Microsoft Windows BITS is vulnerable to to a privilege elevation vulnerability if it improperly handles symbolic links. An actor can exploit this vulnerability to execute arbitrary code with system-level privileges.
-CVE-2017-5689,9.8,0.97453,Intel products contain a vulnerability which can allow attackers to perform privilege escalation.
+CVE-2017-5689,9.8,0.97416,Intel products contain a vulnerability which can allow attackers to perform privilege escalation.
 CVE-2014-1776,,0.97312,Microsoft Internet Explorer contains a memory corruption vulnerability that allows remote attackers to execute code in the context of the current user.
 CVE-2014-6271,9.8,0.97566,"GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code."
 CVE-2014-7169,,0.97348,"GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code. This CVE correctly remediates the vulnerability in CVE-2014-6271."
@@ -376,8 +376,8 @@ CVE-2018-15982,9.8,0.9743,Adobe Flash Player com.adobe.tvsdk.mediacore.metadata 
 CVE-2017-9841,9.8,0.97488,"PHPUnit allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a ""<?php "" substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI."
 CVE-2014-1761,,0.76207,Microsoft Word contains a memory corruption vulnerability which when exploited could allow for remote code execution.
 CVE-2013-3906,,0.97227,Microsoft Graphics Component contains a memory corruption vulnerability which can allow for remote code execution.
-CVE-2022-23131,9.8,0.97171,Unsafe client-side session storage leading to authentication bypass/instance takeover via Zabbix Frontend with configured SAML.
-CVE-2022-23134,5.3,0.53341,Malicious actors can pass step checks and potentially change the configuration of Zabbix Frontend.
+CVE-2022-23131,9.8,0.97133,Unsafe client-side session storage leading to authentication bypass/instance takeover via Zabbix Frontend with configured SAML.
+CVE-2022-23134,5.3,0.48649,Malicious actors can pass step checks and potentially change the configuration of Zabbix Frontend.
 CVE-2022-24682,6.1,0.01718,Zimbra webmail clients running versions 8.8.15 P29 & P30 contain a XSS vulnerability that would allow attackers to steal session cookie files.
 CVE-2017-8570,7.8,0.9743,A remote code execution vulnerability exists in Microsoft Office software when it fails to properly handle objects in memory.
 CVE-2017-0222,7.5,0.25618,A remote code execution vulnerability exists when Internet Explorer improperly accesses objects in memory.
@@ -386,7 +386,7 @@ CVE-2022-20708,9.8,0.01596,"A vulnerability in Cisco Small Business RV160, RV260
 CVE-2022-20703,8.4,0.00375,"A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS)."
 CVE-2022-20701,7.8,0.00104,"A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS)."
 CVE-2022-20700,9.8,0.00405,"A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS)."
-CVE-2022-20699,9.8,0.95583,"A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS)."
+CVE-2022-20699,9.8,0.95843,"A vulnerability in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code elevate privileges, execute arbitrary commands, bypass authentication and authorization protections, fetch and run unsigned software, or cause a denial of service (DoS)."
 CVE-2021-41379,7.8,0.75458,Microsoft Windows Installer contains an unspecified vulnerability which allows for privilege escalation.
 CVE-2020-1938,9.8,0.97531,"Apache Tomcat treats Apache JServ Protocol (AJP) connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited."
 CVE-2020-11899,5.4,0.00237,The Treck TCP/IP stack contains an IPv6 out-of-bounds read vulnerability.
@@ -567,7 +567,7 @@ CVE-2010-3035,,0.02424,"Cisco IOS XR, when BGP is the configured routing feature
 CVE-2010-2861,,0.97295,A directory traversal vulnerability exists in the administrator console in Adobe ColdFusion which allows remote attackers to read arbitrary files.
 CVE-2009-2055,,0.00955,"Cisco IOS XR,when BGP is the configured routing feature, allows remote attackers to cause a denial-of-service."
 CVE-2009-1151,,0.79256,Setup script used to generate configuration can be fooled using a crafted POST request to include arbitrary PHP code in generated configuration file.
-CVE-2009-0927,,0.97446,Stack-based buffer overflow in Adobe Reader and Adobe Acrobat allows remote attackers to execute arbitrary code.
+CVE-2009-0927,,0.97428,Stack-based buffer overflow in Adobe Reader and Adobe Acrobat allows remote attackers to execute arbitrary code.
 CVE-2005-2773,,0.96609,HP OpenView Network Node Manager could allow a remote attacker to execute arbitrary commands on the system.
 CVE-2022-1096,8.8,0.01108,"The vulnerability exists due to a type confusion error within the V8 component in Chromium, affecting all Chromium-based browsers."
 CVE-2022-0543,10.0,0.97266,"Redis is prone to a (Debian-specific) Lua sandbox escape, which could result in remote code execution."
@@ -641,12 +641,12 @@ CVE-2019-16057,9.8,0.96991,The login_mgr.cgi script in D-Link DNS-320 is vulnera
 CVE-2018-7841,9.8,0.02076,A SQL Injection vulnerability exists in U.motion Builder software which could cause unwanted code execution when an improper set of characters is entered.
 CVE-2016-4523,7.5,0.21878,The WAP interface in Trihedral VTScada (formerly VTS) allows remote attackers to cause a denial-of-service.
 CVE-2014-0780,,0.96197,"InduSoft Web Studio NTWebServer contains a directory traversal vulnerability which allows remote attackers to read administrative passwords in APP files, allowing for remote code execution."
-CVE-2010-5330,9.8,0.0118,Certain Ubiquiti devices contain a command injection vulnerability via a GET request to stainfo.cgi.
+CVE-2010-5330,9.8,0.02343,Certain Ubiquiti devices contain a command injection vulnerability via a GET request to stainfo.cgi.
 CVE-2007-3010,,0.97254,masterCGI in the Unified Maintenance Tool in Alcatel OmniPCX Enterprise Communication Server allows remote attackers to execute arbitrary commands.
 CVE-2018-6882,6.1,0.01522,Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability that might allow remote attackers to inject arbitrary web script or HTML.
 CVE-2019-3568,9.8,0.03528,A buffer overflow vulnerability in WhatsApp VOIP stack allowed remote code execution via specially crafted series of RTCP packets sent to a target phone number.
 CVE-2022-22718,7.8,0.00303,Microsoft Windows Print Spooler contains an unspecified vulnerability which allow for privilege escalation.
-CVE-2022-29464,9.8,0.97457,"Multiple WSO2 products allow for unrestricted file upload, resulting in remote code execution."
+CVE-2022-29464,9.8,0.97443,"Multiple WSO2 products allow for unrestricted file upload, resulting in remote code execution."
 CVE-2022-26904,7.0,0.00444,Microsoft Windows User Profile Service contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2022-21919,7.0,0.0022,Microsoft Windows User Profile Service contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2022-0847,7.8,0.19014,"Linux kernel contains an improper initialization vulnerability where an unprivileged local user could escalate their privileges on the system. This vulnerability has the moniker of ""Dirty Pipe."""
@@ -670,7 +670,7 @@ CVE-2020-0638,7.8,0.00069,Microsoft Update Notification Manager contains an unsp
 CVE-2019-7286,7.8,0.00264,"Apple iOS, macOS, watchOS, and tvOS contain a memory corruption vulnerability that could allow for privilege escalation."
 CVE-2019-7287,7.8,0.00125,Apple iOS contains a memory corruption vulnerability which could allow an attacker to perform remote code execution.
 CVE-2019-0676,6.5,0.02204,An information disclosure vulnerability exists when Internet Explorer improperly handles objects in memory. An attacker who successfully exploited this vulnerability could test for the presence of files on disk.
-CVE-2019-5786,6.5,0.97432,Google Chrome contains a heap use-after-free vulnerability which allows an attacker to potentially perform out of bounds memory access.
+CVE-2019-5786,6.5,0.97391,Google Chrome contains a heap use-after-free vulnerability which allows an attacker to potentially perform out of bounds memory access.
 CVE-2019-0703,6.5,0.00207,"An information disclosure vulnerability exists in the way that the Windows SMB Server handles certain requests, which could lead to information disclosure from the server."
 CVE-2019-0880,7.8,0.00042,A local elevation of privilege vulnerability exists in how splwow64.exe handles certain calls. An attacker who successfully exploited the vulnerability could elevate privileges on an affected system from low-integrity to medium-integrity.
 CVE-2019-13720,8.8,0.97372,Use-after-free in WebAudio in Google Chrome allows a remote attacker to potentially exploit heap corruption.
