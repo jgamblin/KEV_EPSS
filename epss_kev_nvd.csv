@@ -100,7 +100,7 @@ CVE-2021-30633,9.6,0.00275,"Google Chromium Indexed DB API contains a use-after-
 CVE-2021-21148,8.8,0.01735,"Google Chromium V8 Engine contains a heap buffer overflow vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
 CVE-2021-37973,9.6,0.00354,"Google Chromium Portals contains a use-after-free vulnerability that allows a remote attacker, who had compromised the renderer process, to potentially perform a sandbox escape via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
 CVE-2021-30551,8.8,0.33503,"Google Chromium V8 Engine contains a type confusion vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
-CVE-2021-37975,8.8,0.36879,"Google Chromium V8 Engine contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
+CVE-2021-37975,8.8,0.39943,"Google Chromium V8 Engine contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
 CVE-2020-6418,8.8,0.96739,Google Chromium V8 Engine contains a type confusion vulnerability allows a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 CVE-2021-30554,8.8,0.0068,"Google Chromium WebGL contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
 CVE-2021-21206,8.8,0.00879,"Google Chromium Blink contains a use-after-free vulnerability that allows a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability affects web browsers that utilize Chromium, including Google Chrome and Microsoft Edge."
@@ -139,7 +139,7 @@ CVE-2021-31956,7.8,0.00043,Microsoft Windows New Technology File System (NTFS) c
 CVE-2021-31201,5.2,0.01465,Microsoft Enhanced Cryptographic Provider contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2021-31979,7.8,0.00043,Microsoft Windows kernel contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2020-0938,7.8,0.94759,"Microsoft Windows Adobe Font Manager Library contains an unspecified vulnerability when handling specially crafted multi-master fonts (Adobe Type 1 PostScript format) that allows for remote code execution for all systems except Windows 10. For systems running Windows 10, an attacker who successfully exploited the vulnerability could execute code in an AppContainer sandbox context with limited privileges and capabilities."
-CVE-2020-17144,8.4,0.28729,Microsoft Exchange Server improperly validates cmdlet arguments which allow an attacker to perform remote code execution.
+CVE-2020-17144,8.4,0.42272,Microsoft Exchange Server improperly validates cmdlet arguments which allow an attacker to perform remote code execution.
 CVE-2020-0986,7.8,0.00059,Microsoft Windows kernel contains an unspecified vulnerability when handling objects in memory that allows attackers to escalate privileges and execute code in kernel mode.
 CVE-2020-1020,8.8,0.92867,"Microsoft Windows Adobe Font Manager Library contains an unspecified vulnerability when handling specially crafted multi-master fonts (Adobe Type 1 PostScript format) that allows for remote code execution for all systems except Windows 10. For systems running Windows 10, an attacker who successfully exploited the vulnerability could execute code in an AppContainer sandbox context with limited privileges and capabilities."
 CVE-2021-38645,7.8,0.00558,Microsoft Open Management Infrastructure (OMI) within Azure VM Management Extensions contains an unspecified vulnerability that allows for privilege escalation.
@@ -214,7 +214,7 @@ CVE-2015-4852,,0.96466,"Oracle WebLogic Server contains a deserialization of unt
 CVE-2020-14750,9.8,0.97545,Oracle WebLogic Server contains an unspecified vulnerability allowing an unauthenticated attacker to perform remote code execution. This vulnerability is related to CVE-2020-14882.
 CVE-2020-14882,9.8,0.97454,"Oracle WebLogic Server contains an unspecified vulnerability, which is assessed to allow for remote code execution, based on this vulnerability being related to CVE-2020-14750."
 CVE-2020-14883,7.2,0.97273,"Oracle WebLogic Server contains an unspecified vulnerability in the Console component with high impacts to confidentilaity, integrity, and availability."
-CVE-2020-8644,9.8,0.958,PlaySMS contains a server-side template injection vulnerability that allows for remote code execution.
+CVE-2020-8644,9.8,0.96035,PlaySMS contains a server-side template injection vulnerability that allows for remote code execution.
 CVE-2019-18935,9.8,0.9352,Progess Telerik UI for ASP.NET AJAX contains a deserialization of untrusted data vulnerability through RadAsyncUpload which leads to code execution on the server in the context of the w3wp.exe process.
 CVE-2021-22893,10.0,0.96734,"Ivanti Pulse Connect Secure contains a use-after-free vulnerability that allow a remote, unauthenticated attacker to execute code via license services."
 CVE-2020-8243,7.2,0.00487,Ivanti Pulse Connect Secure contains an unspecified vulnerability in the admin web interface that could allow an authenticated attacker to upload a custom template to perform code execution.
@@ -506,7 +506,7 @@ CVE-2015-2546,,0.00091,The kernel-mode driver in Microsoft Windows OS and Server
 CVE-2022-26318,9.8,0.0812,"On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute arbitrary code."
 CVE-2022-26143,9.8,0.0387,"A vulnerability has been identified in MiCollab and MiVoice Business Express that may allow a malicious actor to gain unauthorized access to sensitive information and services, cause performance degradations or a denial of service condition on the affected system."
 CVE-2022-21999,7.8,0.00197,Microsoft Windows Print Spooler contains an unspecified vulnerability which can allow for privilege escalation.
-CVE-2021-42237,9.8,0.97329,Sitcore XP contains an insecure deserialization vulnerability which can allow for remote code execution.
+CVE-2021-42237,9.8,0.97286,Sitcore XP contains an insecure deserialization vulnerability which can allow for remote code execution.
 CVE-2021-22941,9.8,0.01529,Improper Access Control in Citrix ShareFile storage zones controller may allow an unauthenticated attacker to remotely compromise the storage zones controller.
 CVE-2020-9377,8.8,0.97088,D-Link DIR-610 devices allow remote code execution via the cmd parameter to command.php.
 CVE-2020-9054,9.8,0.97135,"Multiple Zyxel network-attached storage (NAS) devices contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code."
@@ -633,9 +633,9 @@ CVE-2015-2502,,0.34842,Microsoft Internet Explorer contains a memory corruption 
 CVE-2015-0313,,0.97066,Use-after-free vulnerability in Adobe Flash Player allows remote attackers to execute code.
 CVE-2015-0311,,0.97278,Unspecified vulnerability in Adobe Flash Player allows remote attackers to execute code.
 CVE-2014-9163,,0.05686,Stack-based buffer overflow in Adobe Flash Player allows attackers to execute code remotely.
-CVE-2022-22954,9.8,0.97271,VMware Workspace ONE Access and Identity Manager allow for remote code execution due to server-side template injection.
+CVE-2022-22954,9.8,0.97369,VMware Workspace ONE Access and Identity Manager allow for remote code execution due to server-side template injection.
 CVE-2022-22960,7.8,0.00115,"VMware Workspace ONE Access, Identity Manager and vRealize Automation contain a privilege escalation vulnerability due to improper permissions in support scripts."
-CVE-2022-1364,8.8,0.01544,Google Chromium V8 engine contains a type confusion vulnerability.
+CVE-2022-1364,8.8,0.01537,Google Chromium V8 engine contains a type confusion vulnerability.
 CVE-2019-3929,9.8,0.97419,"Multiple Crestron products are vulnerable to command injection via the file_transfer.cgi HTTP endpoint. A remote, unauthenticated attacker can use this vulnerability to execute operating system commands as root."
 CVE-2019-16057,9.8,0.97548,The login_mgr.cgi script in D-Link DNS-320 is vulnerable to remote code execution.
 CVE-2018-7841,9.8,0.02076,A SQL Injection vulnerability exists in U.motion Builder software which could cause unwanted code execution when an improper set of characters is entered.
