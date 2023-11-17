@@ -1036,3 +1036,6 @@ CVE-2023-36851,5.3,0.00437,0.71847,"Juniper Junos OS on SRX Series contains a mi
 CVE-2023-36033,,0.01179,0.83437,Microsoft Windows Desktop Window Manager (DWM) Core Library contains an unspecified vulnerability that allows for privilege escalation.
 CVE-2023-36025,,0.01698,0.86317,Microsoft Windows SmartScreen contains a security feature bypass vulnerability that could allow an attacker to bypass Windows Defender SmartScreen checks and their associated prompts.
 CVE-2023-36036,,0.01179,0.83437,Microsoft Windows Cloud Files Mini Filter Driver contains a privilege escalation vulnerability that could allow an attacker to gain SYSTEM privileges.
+CVE-2023-36584,5.4,0.00106,0.43072,Microsoft Windows Mark of the Web (MOTW) contains a security feature bypass vulnerability resulting in a limited loss of integrity and availability of security features.
+CVE-2023-1671,9.8,0.36262,0.96759,Sophos Web Appliance contains a command injection vulnerability in the warn-proceed handler that allows for remote code execution.
+CVE-2020-2551,9.8,0.9746,0.99953,Oracle Fusion Middleware contains an unspecified vulnerability in the WLS Core Components that allows an unauthenticated attacker with network access via IIOP to compromise the WebLogic Server.
