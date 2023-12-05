@@ -1041,3 +1041,5 @@ CVE-2020-2551,9.8,0.97503,0.99977,Oracle Fusion Middleware contains an unspecifi
 CVE-2023-4911,7.8,0.01807,0.86758,"GNU C Library's dynamic loader ld.so contains a buffer overflow vulnerability when processing the GLIBC_TUNABLES environment variable, allowing a local attacker to execute code with elevated privileges."
 CVE-2023-6345,9.6,0.00205,0.58188,"Google Skia contains an integer overflow vulnerability affecting Google Chrome and ChromeOS, Android, Flutter, and possibly other products."
 CVE-2023-49103,7.5,0.16394,0.95456,"ownCloud graphapi contains an information disclosure vulnerability that can reveal sensitive data stored in phpinfo() via GetPhpInfo.php, including administrative credentials."
+CVE-2023-42917,,0.00066,0.27177,"Apple iOS, iPadOS, macOS, and Safari WebKit contain a memory corruption vulnerability that leads to code execution when processing web content."
+CVE-2023-42916,,0.0007,0.2913,"Apple iOS, iPadOS, macOS, and Safari WebKit contain an out-of-bounds read vulnerability that may disclose sensitive information when processing web content."
