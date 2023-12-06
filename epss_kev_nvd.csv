@@ -1043,3 +1043,7 @@ CVE-2023-6345,9.6,0.00205,0.58217,"Google Skia contains an integer overflow vuln
 CVE-2023-49103,7.5,0.03701,0.90762,"ownCloud graphapi contains an information disclosure vulnerability that can reveal sensitive data stored in phpinfo() via GetPhpInfo.php, including administrative credentials."
 CVE-2023-42917,,0.00115,0.4498,"Apple iOS, iPadOS, macOS, and Safari WebKit contain a memory corruption vulnerability that leads to code execution when processing web content."
 CVE-2023-42916,,0.00096,0.39839,"Apple iOS, iPadOS, macOS, and Safari WebKit contain an out-of-bounds read vulnerability that may disclose sensitive information when processing web content."
+CVE-2023-33107,,0.00061,0.23913,Multiple Qualcomm chipsets contain an integer overflow vulnerability due to memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.
+CVE-2023-33106,,0.00061,0.23913,Multiple Qualcomm chipsets contain a use of out-of-range pointer offset vulnerability due to memory corruption in Graphics while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.
+CVE-2023-33063,,0.00061,0.23913,Multiple Qualcomm chipsets contain a use-after-free vulnerability due to memory corruption in DSP Services during a remote call from HLOS to DSP.
+CVE-2022-22071,7.8,0.00043,0.0697,Multiple Qualcomm chipsets contain a use-after-free vulnerability when process shell memory is freed using IOCTL munmap call and process initialization is in progress.
