@@ -1067,3 +1067,4 @@ CVE-2023-6549,,0.01855,0.87079,"Citrix NetScaler ADC and NetScaler Gateway conta
 CVE-2023-6548,,0.00794,0.79739,"Citrix NetScaler ADC and NetScaler Gateway contain a code injection vulnerability that allows for authenticated remote code execution on the management interface with access to NSIP, CLIP, or SNIP."
 CVE-2023-35082,9.8,0.92448,0.98791,Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core contain an authentication bypass vulnerability that allows unauthorized users to access restricted functionality or resources of the application.
 CVE-2023-34048,9.8,0.01717,0.86532,VMware vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol that allows an attacker to conduct remote code execution.
+CVE-2023-22527,,0.00061,0.24036,Atlassian Confluence Data Center and Server contain an unauthenticated OGNL template injection vulnerability that can lead to remote code execution.
