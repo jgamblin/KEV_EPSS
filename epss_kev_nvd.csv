@@ -1068,3 +1068,4 @@ CVE-2023-6548,8.8,0.01075,0.8274,"Citrix NetScaler ADC and NetScaler Gateway con
 CVE-2023-35082,9.8,0.93274,0.98906,Ivanti Endpoint Manager Mobile (EPMM) and MobileIron Core contain an authentication bypass vulnerability that allows unauthorized users to access restricted functionality or resources of the application.
 CVE-2023-34048,9.8,0.01717,0.86552,VMware vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol that allows an attacker to conduct remote code execution.
 CVE-2023-22527,9.8,0.97301,0.99851,Atlassian Confluence Data Center and Server contain an unauthenticated OGNL template injection vulnerability that can lead to remote code execution.
+CVE-2022-48618,7.8,0.00042,0.05726,"Apple iOS, iPadOS, macOS, tvOS, and watchOS contain an improper authentication vulnerability that allows an attacker with read and write capabilities to bypass Pointer Authentication."
