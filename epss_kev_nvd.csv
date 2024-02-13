@@ -1070,3 +1070,4 @@ CVE-2023-34048,9.8,0.03061,0.90653,VMware vCenter Server contains an out-of-boun
 CVE-2023-22527,9.8,0.97431,0.99935,Atlassian Confluence Data Center and Server contain an unauthenticated OGNL template injection vulnerability that can lead to remote code execution.
 CVE-2022-48618,7.8,0.00693,0.79556,"Apple iOS, iPadOS, macOS, tvOS, and watchOS contain an improper authentication vulnerability that allows an attacker with read and write capabilities to bypass Pointer Authentication."
 CVE-2023-4762,8.8,0.3486,0.96964,Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute code via a crafted HTML page.
+CVE-2023-43770,6.1,0.00765,0.80608,Roundcube Webmail contains a persistent cross-site scripting (XSS) vulnerability that can lead to information disclosure via malicious link references in plain/text messages.
