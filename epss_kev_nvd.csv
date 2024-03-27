@@ -1078,3 +1078,4 @@ CVE-2021-36380,9.8,0.97516,0.99984,Sunhillo SureLine contains an OS command inje
 CVE-2019-7256,10.0,0.9745,0.99947,Nice Linear eMerge E3-Series contains an OS command injection vulnerability that allows an attacker to conduct remote code execution.
 CVE-2021-44529,9.8,0.96887,0.99687,Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) contains a code injection vulnerability that allows an unauthenticated user to execute malicious code with limited permissions (nobody).
 CVE-2023-48788,9.8,0.01806,0.87856,Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests.
+CVE-2023-24955,7.2,0.31168,0.96872,Microsoft SharePoint Server contains a code injection vulnerability that allows an authenticated attacker with Site Owner privileges to execute code remotely.
