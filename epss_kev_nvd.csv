@@ -1079,3 +1079,4 @@ CVE-2019-7256,10.0,0.97441,0.99945,Nice Linear eMerge E3-Series contains an OS c
 CVE-2021-44529,9.8,0.97068,0.99757,Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) contains a code injection vulnerability that allows an unauthenticated user to execute malicious code with limited permissions (nobody).
 CVE-2023-48788,9.8,0.56222,0.97646,Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests.
 CVE-2023-24955,7.2,0.34515,0.97048,Microsoft SharePoint Server contains a code injection vulnerability that allows an authenticated attacker with Site Owner privileges to execute code remotely.
+CVE-2022-38028,7.8,0.00043,0.08654,Microsoft Windows Print Spooler service contains a privilege escalation vulnerability. An attacker may modify a JavaScript constraints file and execute it with SYSTEM-level permissions.
