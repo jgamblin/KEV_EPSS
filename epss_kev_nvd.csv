@@ -1080,3 +1080,4 @@ CVE-2021-44529,9.8,0.97068,0.99759,Ivanti Endpoint Manager Cloud Service Applian
 CVE-2023-48788,9.8,0.56222,0.97649,Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests.
 CVE-2023-24955,7.2,0.34515,0.97057,Microsoft SharePoint Server contains a code injection vulnerability that allows an authenticated attacker with Site Owner privileges to execute code remotely.
 CVE-2022-38028,7.8,0.00051,0.1893,Microsoft Windows Print Spooler service contains a privilege escalation vulnerability. An attacker may modify a JavaScript constraints file and execute it with SYSTEM-level permissions.
+CVE-2023-7028,7.5,0.80716,0.98285,GitLab Community and Enterprise Editions contain an improper access control vulnerability. This allows an attacker to trigger password reset emails to be sent to an unverified email address to ultimately facilitate an account takeover.
