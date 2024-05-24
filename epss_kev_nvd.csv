@@ -1084,3 +1084,4 @@ CVE-2023-7028,7.5,0.95952,0.99463,GitLab Community and Enterprise Editions conta
 CVE-2021-40655,7.5,0.10459,0.95001,D-Link DIR-605 routers contain an information disclosure vulnerability that allows attackers to obtain a username and password by forging a post request to the /getcfg.php page. 
 CVE-2014-100005,,0.86063,0.98562,D-Link DIR-600 routers contain a cross-site request forgery (CSRF) vulnerability that allows an attacker to change router configurations by hijacking an existing administrator session.
 CVE-2023-43208,9.8,0.94574,0.99229,NextGen Healthcare Mirth Connect contains a deserialization of untrusted data vulnerability that allows for unauthenticated remote code execution via a specially crafted request.
+CVE-2020-17519,7.5,0.9708,0.99771,Apache Flink contains an improper access control vulnerability that allows an attacker to read any file on the local filesystem of the JobManager through its REST interface.
