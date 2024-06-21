@@ -129,3 +129,7 @@ dmypy.json
 .pyre/
 
 ./
+
+*.zip
+*.json
+epss_scores-*.csv
