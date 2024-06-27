@@ -1122,3 +1122,6 @@ CVE-2024-4610,5.5,0.21262,0.96456,"Arm Bifrost and Valhall GPU kernel drivers co
 CVE-2024-4358,9.8,0.93837,0.99152,Progress Telerik Report Server contains an authorization bypass by spoofing vulnerability that allows an attacker to obtain unauthorized access.,Progress,Telerik Report Server
 CVE-2024-26169,7.8,0.00059,0.25309,Microsoft Windows Error Reporting Service contains an improper privilege management vulnerability that allows a local attacker with user permissions to gain SYSTEM privileges.,Microsoft,Windows
 CVE-2024-32896,7.8,0.00083,0.35652,Android Pixel contains an unspecified vulnerability in the firmware that allows for privilege escalation.,Android,Pixel
+CVE-2020-13965,6.1,0.00343,0.71703,Roundcube Webmail contains a cross-site scripting (XSS) vulnerability that allows a remote attacker to manipulate data via a malicious XML attachment.,Roundcube,Webmail
+CVE-2022-2586,7.8,0.00044,0.10179,"Linux Kernel contains a use-after-free vulnerability in the nft_object, allowing local attackers to escalate privileges. ",Linux,Kernel
+CVE-2022-24816,9.8,0.8217,0.98422,"GeoSolutionsGroup JAI-EXT, a component of GeoSolutions GeoServer, contains a code injection vulnerability that, when programs use jt-jiffle and allow Jiffle script to be provided via network request, could allow remote code execution.",GeoSolutionsGroup,JAI-EXT
