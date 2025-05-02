@@ -26,7 +26,7 @@ jobs:
  
         wget https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-{2002..2024}.json.zip 
         unzip -o "*.zip" 
-        wget https://epss.cyentia.com/epss_scores-current.csv.gz
+        wget https://epss.empiricalsecurity.com/epss_scores-current.csv.gz
         gzip -d epss_scores-current.csv.gz   
         jupyter nbconvert --ExecutePreprocessor.timeout=-1 --to notebook --inplace --execute KEV-EPSS.ipynb
         rm *.json
