@@ -34,7 +34,7 @@ jobs:
         rm epss_scores-current.csv
     - name: Commit changes
       if: github.event_name != 'pull_request'
-      uses: EndBug/add-and-commit@v10
+      uses: EndBug/add-and-commit@v11
       with:
           default_author: github_actions
       env:
